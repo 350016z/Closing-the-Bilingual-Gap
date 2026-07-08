@@ -1,0 +1,4849 @@
+{
+  "0": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "0",
+    "source": "頭髮留那麼長還不剪，莫非是想把錢省下來買花生糖吃。",
+    "target": "頭毛留甲遐爾長毋去鉸，敢是欲儉錢來買塗豆麩食？",
+    "reference": "頭毛留長長，儉錢食塗豆糖。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "塗豆麩",
+        "severity": "Major",
+        "start": 18,
+        "end": 21,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「花生糖」，台文是「塗豆糖」。"
+  },
+  "1": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1",
+    "source": "每一個人都有一項才藝，空閒的時候姑且耍弄耍弄。",
+    "target": "逐个人攏有一項工夫，無代誌就𨑨迌一下𨑨迌一下。",
+    "reference": "一人占一項，閒閒罔變弄。",
+    "rater": "rater1",
+    "score7": 3.5,
+    "score100": 58.33,
+    "spans": [
+      {
+        "text": "工夫",
+        "severity": "Minor",
+        "start": 7,
+        "end": 9,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "無代誌",
+        "severity": "Minor",
+        "start": 10,
+        "end": 13,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "𨑨迌一下𨑨迌一下",
+        "severity": "Minor",
+        "start": 14,
+        "end": 22,
+        "category": "Accuracy/Omission",
+        "original_start": 14,
+        "original_end": 24,
+        "_auto_fixed": true
+      },
+      {
+        "text": "𨑨迌一下𨑨迌一下",
+        "severity": "Minor",
+        "start": 14,
+        "end": 22,
+        "category": "Purity/None",
+        "original_start": 14,
+        "original_end": 24,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1. 中文「才藝」，台文是「才藝」。\n2. 中文「空閒的時候」，台文是「有閒」。\n3. 中文「姑且」，台文是「罔」。\n4. 中文「耍弄耍弄」，台文是「耍一下」。"
+  },
+  "2": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "2",
+    "source": "有空酒瓶或者用過的壞器具、紙張可以回收利用的東西要賣嗎？",
+    "target": "有通抾轉來的酒矸仔抑是歹去的器具、紙張會使賣無？",
+    "reference": "有酒矸，通賣無，歹銅舊錫簿仔紙通賣無？",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "3": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "3",
+    "source": "俗云斷掌的男人有福氣，會當官，但是斷掌的女人卻會剋夫，而獨守空閨。",
+    "target": "俗語講：「大跤查埔好命，食甲老老老；細跤查某歹命，守到老老老。」",
+    "reference": "人講斷掌查埔做相公，斷掌查某守空房。",
+    "rater": "rater1",
+    "score7": 0,
+    "score100": 0,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "4": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "4",
+    "source": "天花板與屋頂之間的空間可以儲藏一些東西。",
+    "target": "天篷佮厝頂之間有夠額的空間通囥一寡物件。",
+    "reference": "樓栱會使囥一寡仔物件。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "有夠額",
+        "severity": "Minor",
+        "start": 7,
+        "end": 10,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "天花板與屋頂之間的空間，台語稱為「樓栱(lâu-kông)」。"
+  },
+  "5": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "5",
+    "source": "他是一個好像樣樣懂卻沒有一項專精的傢伙。",
+    "target": "伊是一个若像啥物攏捌、啥物都無通的柴頭人。",
+    "reference": "伊是一个雜菜麵的跤數。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "無通",
+        "severity": "Major",
+        "start": 14,
+        "end": 16,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "柴頭人",
+        "severity": "Major",
+        "start": 17,
+        "end": 20,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「專精」，台文是「熟手」。\n2. 中文「傢伙」，台文是「跤數」。\n3. 中文「好像樣樣懂卻沒有一項專精」，台文是「雜菜麵」。"
+  },
+  "6": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "6",
+    "source": "早晨出現紅霞，就會下雨；黃昏出現紅霞，烈日當空。",
+    "target": "早起時看著紅霞，落雨矣；暗頭仔看著紅霞，火燒埔。",
+    "reference": "日出紅霞，水淋頭額；日落紅霞，曝死老爺。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "看著",
+        "severity": "Minor",
+        "start": 3,
+        "end": 5,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "落雨矣",
+        "severity": "Major",
+        "start": 8,
+        "end": 11,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "看著",
+        "severity": "Minor",
+        "start": 15,
+        "end": 17,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "火燒埔",
+        "severity": "Minor",
+        "start": 20,
+        "end": 23,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「早晨出現紅霞」，台文是「早起時(早時)出現紅霞」或「早起時(早時)紅霞」。\n2. 中文「就會下雨」，台文是「就會落雨」。\n3. 中文「烈日」，台文是「大日虎」。\n4. 中文「早晨出現紅霞，就會下雨；黃昏出現紅霞，烈日當空」，台文可用俗諺「日出紅霞，水淋頭額；日落紅霞，曝死老爺」對應。"
+  },
+  "7": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "7",
+    "source": "小人總急著報仇，而君子則會從長計議，爭回一個公道。",
+    "target": "我這个小人若欲報冤，你這个大爺就愛想較久咧，看有通還咱一个公道無？",
+    "reference": "小人報冤三日，君子報冤三年。",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "8": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "8",
+    "source": "農曆三月，以成擔方式挑著盛產的桃子、李子。",
+    "target": "舊曆三月，用擔仔賣上時行的王梨、菝仔。",
+    "reference": "三月三，桃仔李仔伨頭擔。",
+    "rater": "rater1",
+    "score7": 0,
+    "score100": 0,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "9": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "9",
+    "source": "鳳尾草雖然粗陋無華又沒什麼經濟價值，不過要是在中暑的時候將它煎煮成汁，當做飲品來喝，倒是還頗具療效。",
+    "target": "鳳仔花雖罔較䆀，毋過若中晝食袂落去，共伊煎湯啉一下，嘛是會好勢。",
+    "reference": "鳳尾草雖然臭賤，毋過若是熱著的時，共伊煎來做茶啉嘛誠有效。",
+    "rater": "rater1",
+    "score7": 0,
+    "score100": 0,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "10": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "10",
+    "source": "再怎麼說也無法改變他的想法，實在非常愚鈍又頑固。",
+    "target": "閣按怎講嘛無法度共伊的想法變予伊好，實在真戇呆閣硬拗。",
+    "reference": "伊較講都講袂翻捙，有夠聬儱。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "閣",
+        "severity": "Minor",
+        "start": 0,
+        "end": 1,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "共",
+        "severity": "Minor",
+        "start": 8,
+        "end": 9,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "變予伊好",
+        "severity": "Minor",
+        "start": 13,
+        "end": 17,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "硬拗",
+        "severity": "Major",
+        "start": 24,
+        "end": 26,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「再怎麼說」，台文是「較按怎講」。\n2. 中文「改變他的想法」，台文是「改變伊的想法」。\n3. 中文「頑固」，台文是「固執」。\n4. 中文「愚鈍又頑固」，台文是「聬儱」。"
+  },
+  "11": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "11",
+    "source": "人家俗話說「輸給某人無所謂，別排在最後，在最後一名就太難看了」，我們就得要努力點。",
+    "target": "人講「食緊挵破碗」，咱著愛較拍拚咧。",
+    "reference": "人講「輸人毋輸陣，輸陣歹看面」，咱著愛較拍拚咧。",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "食緊挵破碗",
+        "severity": "Major",
+        "start": 3,
+        "end": 8,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1.中文「輸給某人無所謂，別排在最後，在最後一名就太難看了」, 台文可用俗諺「輸人毋輸陣，輸陣歹看面」對應。"
+  },
+  "12": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "12",
+    "source": "犯罪的人，要隨時有認罪並接受法律制裁的準備。",
+    "target": "犯法的人，愛隨有認毋著閣來受法律的制裁的準備。",
+    "reference": "犯法的人，隨時愛準備食罪。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "隨",
+        "severity": "Minor",
+        "start": 6,
+        "end": 7,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "認毋著",
+        "severity": "Minor",
+        "start": 8,
+        "end": 11,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "閣來",
+        "severity": "Major",
+        "start": 11,
+        "end": 13,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "的",
+        "severity": "Minor",
+        "start": 16,
+        "end": 17,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "1. 中文「隨時」，台文是「隨時」。\n2. 中文「認罪」，台文是「認罪」。"
+  },
+  "13": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "13",
+    "source": "時機很不好，害我各種行業都做過了也沒輒。",
+    "target": "時機真䆀，害我做甲百行無半步。",
+    "reference": "時機誠䆀，害我十二生相變透透嘛變無撚。",
+    "rater": "rater1",
+    "score7": 3.6,
+    "score100": 60,
+    "spans": [
+      {
+        "text": "做甲百行",
+        "severity": "Major",
+        "start": 7,
+        "end": 11,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "無半步",
+        "severity": "Major",
+        "start": 11,
+        "end": 14,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「各種行業都做過了」，台文是「十二生相變透透」。\n2. 中文「沒輒」，台文是「變無撚」。"
+  },
+  "15": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "15",
+    "source": "家中二妻爭執，因互相謾罵而使得家醜外揚。",
+    "target": "厝內二个某咧冤家，因為相罵甲流目屎，予人看笑詼。",
+    "reference": "一某無人知，兩某相卸代。",
+    "rater": "rater1",
+    "score7": 5.9,
+    "score100": 98.33,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/"
+      }
+    ],
+    "explanation": "「家中二妻爭執，因互相謾罵而使得家醜外揚」，可用台語俗諺「一某無人知，兩某相卸代」對應。"
+  },
+  "14": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "14",
+    "source": "今天十六號，有很多生意人備牲祭拜土地公和孤魂野鬼。",
+    "target": "今仔日十六，有真濟生理人攢牲醴來拜土地公佮孤魂野鬼。",
+    "reference": "今仔日十六，有真濟生理人做牙。",
+    "rater": "rater1",
+    "score7": 5.9,
+    "score100": 98.33,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": "商家在農曆每月初二、十六日備牲禮祭拜土地公和孤魂野鬼等，祈求生意興隆，台語稱為「做牙(tsò-gê)」。"
+  },
+  "16": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "16",
+    "source": "他要用騙術讓你落入圈套，以謀取利益，你別被他騙了。",
+    "target": "伊欲用步數予你跋落空喙，來圖謀私利，你毋通予伊拐去。",
+    "reference": "伊想欲牽龜落湳，你莫予伊騙去。",
+    "rater": "rater1",
+    "score7": 4.8,
+    "score100": 80,
+    "spans": [
+      {
+        "text": "空喙",
+        "severity": "Major",
+        "start": 9,
+        "end": 11,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "圖謀",
+        "severity": "Minor",
+        "start": 13,
+        "end": 15,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "步數",
+        "severity": "Minor",
+        "start": 3,
+        "end": 5,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "私利",
+        "severity": "Minor",
+        "start": 15,
+        "end": 17,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「騙術」，台文是「騙術」。\n2. 中文「圈套」，台文是「圈套」。\n3. 中文「謀取利益」，台文是「謀取利益」，這裡用口語化「得著利益」呈現即可。\n4.  「用騙術引誘別人落入圈套」，可使用台文熟語「牽龜落湳」對應。"
+  },
+  "17": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "17",
+    "source": "天空開始下起間歇性隨風飄的霧雨，應該是颱風快來了。",
+    "target": "天頂開始落一寡仔袂定時的毛毛仔雨，應該會緊變做風颱矣。",
+    "reference": "天寢放雨白，應該是風颱欲來矣。",
+    "rater": "rater1",
+    "score7": 3.5,
+    "score100": 58.33,
+    "spans": [
+      {
+        "text": "一寡仔袂定時的毛毛仔雨",
+        "severity": "Minor",
+        "start": 5,
+        "end": 16,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "會緊變做風颱矣",
+        "severity": "Major",
+        "start": 19,
+        "end": 26,
+        "category": "Fluency/Grammar"
+      }
+    ],
+    "explanation": "1. 中文「間歇性」，台文是「間歇性(kan-hat-sìng)」或口語「一陣一陣(tsi̍t tsūn tsi̍t tsūn)」來表示。「颱風外圍環流帶來的間歇性隨風飄的霧雨現象，是颱風的徵兆」，可用台文「放雨白」對應。\n2. 翻譯時態錯誤。中文「應該是颱風快來了。」，台文是「應該是風颱欲來矣」。\n"
+  },
+  "18": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "18",
+    "source": "賺的錢花就已經不夠了，還要人情俗事的交際應酬，哪還有錢可以買房子。",
+    "target": "趁的錢開就無夠看矣，閣愛納人的交際費，哪有通買厝？",
+    "reference": "趁都無夠用矣，閣愛纏綴人，哪有錢通買厝。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "看",
+        "severity": "Major",
+        "start": 7,
+        "end": 8,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "納人的交際費",
+        "severity": "Minor",
+        "start": 12,
+        "end": 18,
+        "category": "Purity/None"
+      },
+      {
+        "text": "通",
+        "severity": "Minor",
+        "start": 21,
+        "end": 22,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 中文「錢不夠花」，台文是「錢無夠用」。\n2. 「人情俗事的交際應酬」，台文是「纏綴」。\n3. 漏譯「錢」，台文是「哪有錢通買厝」。"
+  },
+  "19": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "19",
+    "source": "才第一次見面就讓他請客，你難道不會不好意思嗎？",
+    "target": "頭擺相見就予伊請，你敢袂歹勢？",
+    "reference": "初見面就予伊請，你敢袂歹勢？",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "頭擺相見",
+        "severity": "Minor",
+        "start": 0,
+        "end": 4,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 中文「第一次見面」，台文是「初見面」。"
+  },
+  "20": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "20",
+    "source": "以前連地瓜得了黑斑病，變黑又發臭，也刨絲來吃。",
+    "target": "古早連芋頭著烏點病，變烏閣臭臊，嘛削絲來食。",
+    "reference": "早前連番薯臭香，嘛礤簽來食。",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "古早",
+        "severity": "Minor",
+        "start": 0,
+        "end": 2,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "芋頭",
+        "severity": "Major",
+        "start": 3,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "烏點病",
+        "severity": "Major",
+        "start": 6,
+        "end": 9,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "臭臊",
+        "severity": "Major",
+        "start": 13,
+        "end": 15,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "削絲",
+        "severity": "Major",
+        "start": 17,
+        "end": 19,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 中文「以前」，台文是「早前」。\n2. 中文「地瓜」，台文是「番薯」。\n3. 中文「得了黑斑病」，台文是「臭香」。\n4. 五穀雜糧類發臭，台文是「臭殕」。\n5. 中文「刨絲」，台文是「礤簽」。"
+  },
+  "21": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "21",
+    "source": "好事情就讓它來，壞事情就終結它，請觀世音菩薩來擺平。",
+    "target": "好空的代誌就予伊過，歹空的代誌就煞去，拜媽祖婆來排解。",
+    "reference": "好事來，歹事煞，觀音佛祖來擺撥。",
+    "rater": "rater1",
+    "score7": 3.8,
+    "score100": 63.33,
+    "spans": [
+      {
+        "text": "好空的",
+        "severity": "Minor",
+        "start": 0,
+        "end": 3,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "過",
+        "severity": "Major",
+        "start": 8,
+        "end": 9,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "歹空的",
+        "severity": "Minor",
+        "start": 10,
+        "end": 13,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "煞去",
+        "severity": "Major",
+        "start": 16,
+        "end": 18,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "拜媽祖婆",
+        "severity": "Major",
+        "start": 19,
+        "end": 23,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "排解",
+        "severity": "Minor",
+        "start": 24,
+        "end": 26,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「好事情」，台文是「好代誌」、「好事」。\n2. 中文「壞事情」，台文是「歹代誌」、「歹事」。\n3. 中文「觀世音菩薩」，台文是「觀世音菩薩」、「觀音佛祖」。\n4. 中文「終結它」，台文是「共伊結束」、「好事」。\n5.「祈求神明解除災禍」，台文是「擺撥」。"
+  },
+  "22": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "22",
+    "source": "我去清理田邊的水溝，不小心卻掉到爛泥巴中。",
+    "target": "我去清田邊的圳溝，無細膩煞跋落去爛塗糜內底。",
+    "reference": "我去清田溝，無細膩煞落湳。",
+    "rater": "rater1",
+    "score7": 5.8,
+    "score100": 96.67,
+    "spans": [
+      {
+        "text": "圳溝",
+        "severity": "Major",
+        "start": 6,
+        "end": 8,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「田邊的水溝」，台文是「田溝」。\n2. 掉到爛泥巴中，可用台文「落湳」對應。"
+  },
+  "23": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "23",
+    "source": "事情這麼多，你不要想把所有的事都承擔下來。",
+    "target": "代誌遮濟，你毋通欲共所有的代誌攏擔落來。",
+    "reference": "代誌遐濟，你毋通想欲總攬。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "24": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "24",
+    "source": "夏天配種用的雄性豬隻需要沖水，才不會中暑。",
+    "target": "熱天飼精牲仔著愛洗身軀，較袂熱著。",
+    "reference": "熱人豬哥愛灇水，才袂熱著。",
+    "rater": "rater1",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "飼精牲仔",
+        "severity": "Major",
+        "start": 2,
+        "end": 6,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "洗身軀",
+        "severity": "Major",
+        "start": 8,
+        "end": 11,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "較",
+        "severity": "Minor",
+        "start": 12,
+        "end": 13,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「配種用的雄性豬隻」，台文是「豬哥」。\n2. 中文「沖水」，台文是「灇水」。\n3. 中文「才」，台文是「才」。"
+  },
+  "25": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "25",
+    "source": "俗話說：「吃得好，自然臉色紅潤；穿得好，自然外表體面」，穿著打扮如果太隨便，人家看不上眼。",
+    "target": "俗語講：「食好鬥相報，穿好展風神」，穿甲若乞食，人看你無目地。",
+    "reference": "人講：「食佇面裡，穿佇身裡」，穿插若傷凊彩，人看袂上目。",
+    "rater": "rater1",
+    "score7": 1.5,
+    "score100": 25,
+    "spans": [
+      {
+        "text": "鬥相報",
+        "severity": "Major",
+        "start": 7,
+        "end": 10,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "展風神",
+        "severity": "Major",
+        "start": 13,
+        "end": 16,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "乞食",
+        "severity": "Major",
+        "start": 21,
+        "end": 23,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "「吃得好，自然臉色紅潤；穿得好，自然外表體面」可用台文「食佇面裡，穿佇身裡」對應。"
+  },
+  "26": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "26",
+    "source": "鐃鈸叮噹響，紅龜粿包豆沙餡。老公公吃，老婆婆罵。老公公舉起扁擔，老婆婆喊救命不敢。",
+    "target": "銅鑼摃鼓聲，紅龜粿𩛩塗豆餡。阿公食，阿媽罵。阿公攑扁擔，阿媽喝救命毋敢。",
+    "reference": "鋟鋟嚵，紅龜包豆餡。公仔食，婆仔罵。公仔攑扁擔，婆仔喝毋敢。",
+    "rater": "rater1",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "銅鑼摃鼓",
+        "severity": "Major",
+        "start": 0,
+        "end": 4,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "𩛩",
+        "severity": "Major",
+        "start": 9,
+        "end": 10,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 9,
+        "original_end": 11,
+        "_auto_fixed": true
+      },
+      {
+        "text": "塗豆",
+        "severity": "Major",
+        "start": 10,
+        "end": 12,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 11,
+        "original_end": 13,
+        "_auto_fixed": true
+      },
+      {
+        "text": "阿公",
+        "severity": "Major",
+        "start": 14,
+        "end": 16,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 15,
+        "original_end": 17,
+        "_auto_fixed": true
+      },
+      {
+        "text": "阿媽",
+        "severity": "Major",
+        "start": 18,
+        "end": 20,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 19,
+        "original_end": 21,
+        "_auto_fixed": true
+      },
+      {
+        "text": "阿公",
+        "severity": "Major",
+        "start": 22,
+        "end": 24,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 23,
+        "original_end": 25,
+        "_auto_fixed": true
+      },
+      {
+        "text": "阿媽",
+        "severity": "Major",
+        "start": 28,
+        "end": 30,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 29,
+        "original_end": 31,
+        "_auto_fixed": true
+      },
+      {
+        "text": "聲",
+        "severity": "Minor",
+        "start": 4,
+        "end": 5,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 中文「鐃鈸叮噹響」，台文是「鋟鋟嚵」。\n2. 中文「包」，台文是「包」。\n3. 中文「豆沙」，台文是「豆沙」。\n4. 中文「老公公」，台文是「公仔」、「老公仔」。\n5. 中文「老婆婆」，台文是「婆仔」。"
+  },
+  "27": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "27",
+    "source": "在這個世上每個人所喜愛的絕對不一樣，縱使是同一家人，「大人喜歡的是尋找賺錢的機會，小孩子渴望的是過年快點到來」，就像青菜、蘿蔔各有所好，人人不相同。",
+    "target": "佇世間逐个人佮意的攏無仝款，就算是仝一家口仔，「大人愛揣錢趁，囡仔想欲過年」，親像菜蔬、蔥頭各人意，無人相𫝛。",
+    "reference": "世間人各人所興的攏袂相𫝛，平平是仝厝內，「大人愛趁錢，囡仔愛過年」，一人興一項，無兩人興相仝。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "菜蔬",
+        "severity": "Minor",
+        "start": 41,
+        "end": 43,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "蔥頭",
+        "severity": "Major",
+        "start": 44,
+        "end": 46,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "各人意",
+        "severity": "Major",
+        "start": 46,
+        "end": 49,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 中文「青菜」，台文是「青菜」。\n2. 中文「蘿蔔」，台文是「菜頭」。\n3. 中文「各有所好」，台文是「一人興一項」。\n4.「大人喜歡的是尋找賺錢的機會，小孩子渴望的是過年快點到來」，台文可用「大人愛趁錢，囡仔愛過年」對應。"
+  },
+  "28": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "28",
+    "source": "這瓶香水是比較低級的貨品，不是高等級的貨色。",
+    "target": "這罐芳水是較低級的產品，毋是高級貨。",
+    "reference": "這罐芳水較低級，毋是高級貨。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "產品",
+        "severity": "Minor",
+        "start": 9,
+        "end": 11,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「貨品」，台文是「貨」。"
+  },
+  "29": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "29",
+    "source": "他喜歡誣賴別人，白色的布硬要染成黑色的。硬是要抹黑事實。",
+    "target": "伊愛共人烏白講，白布硬欲染做烏的。硬拗的事實。",
+    "reference": "伊愛共人誣賴，白白布強欲共人染甲烏。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "烏白講",
+        "severity": "Major",
+        "start": 4,
+        "end": 7,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "拗的",
+        "severity": "Major",
+        "start": 18,
+        "end": 20,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "事實",
+        "severity": "Minor",
+        "start": 20,
+        "end": 22,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 中文「誣賴」，台文是「誣賴」。\n2. 中文「硬是要」，台文是「硬欲」。\n3. 中文「抹黑」，台文是「抹烏」。"
+  },
+  "30": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "30",
+    "source": "搖來晃去的人沒有才幹，搖搖晃晃的豬，就不屠宰」，我們要穩重一點，才不會被別人瞧不起。",
+    "target": "幌來幌去的人無才調，幌來幌去的豬仔毋刣，咱愛較穩重咧，才袂予人看衰。",
+    "reference": "「搖人無才，搖豬無刣」，咱愛較定著咧，才袂予人看袂起。",
+    "rater": "rater1",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "幌來幌去",
+        "severity": "Minor",
+        "start": 0,
+        "end": 4,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "無才調",
+        "severity": "Minor",
+        "start": 6,
+        "end": 9,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "幌來幌去",
+        "severity": "Major",
+        "start": 10,
+        "end": 14,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "看衰",
+        "severity": "Minor",
+        "start": 31,
+        "end": 33,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「搖來晃去」，台文是「搖來幌去」。\n2. 中文「沒有才幹」，台文是「無才」。\n3. 中文「搖搖晃晃」，台文是「搖搖幌幌」。\n4.中文「瞧不起」，台文是「看袂起」。\n5.「搖來晃去的人沒有才幹，搖搖晃晃的豬，就不屠宰」，可用台文俗諺「搖人無才，搖豬無刣」對應。"
+  },
+  "31": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "31",
+    "source": "過年過節的時候，村莊裡頭請戲班子來演戲的錢都是大家一起分攤的。",
+    "target": "年冬節日的時陣，庄頭內面請戲班仔來搬戲的錢攏是逐家相放伴。",
+    "reference": "年節時仔，庄頭做戲的錢攏是規庄頭公開的。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "年冬節日",
+        "severity": "Minor",
+        "start": 0,
+        "end": 4,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "相放伴",
+        "severity": "Major",
+        "start": 25,
+        "end": 28,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「過年過節」，台文是「年節時仔」。\n2. 中文「一起分攤」，台文是「公開」。"
+  },
+  "32": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "32",
+    "source": "懶散的人做事拖拖拉拉，常常會因為他的延誤，拖垮後面所有的活動。",
+    "target": "懶屍的人做代誌慢吞吞，定定因為伊的拖沙，共規个工課舞甲亂操操。",
+    "reference": "懶性的人做代誌無要無緊，定定會誤著代誌。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "懶屍",
+        "severity": "Minor",
+        "start": 0,
+        "end": 2,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "慢吞吞",
+        "severity": "Minor",
+        "start": 7,
+        "end": 10,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "拖沙",
+        "severity": "Minor",
+        "start": 17,
+        "end": 19,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "共規个工課舞甲亂操操",
+        "severity": "Minor",
+        "start": 20,
+        "end": 30,
+        "category": "Accuracy/Other"
+      }
+    ],
+    "explanation": "1. 中文「懶散」，台文是「懶性」。\n2. 中文「拖拖拉拉」，台文是「拖拖沙沙」。\n3. 中文「延誤」，台文是「延誤」。\n4. 「拖垮後面所有的活動」，可用台文「誤著代誌」對應。"
+  },
+  "33": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "33",
+    "source": "我們做兒女的不要讓父母親為我們操心煩惱。",
+    "target": "阮做囝兒序細的無通予爸母為咱來掛心。",
+    "reference": "咱做序細毋通予序大人操煩。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "無通",
+        "severity": "Major",
+        "start": 7,
+        "end": 9,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "掛心",
+        "severity": "Minor",
+        "start": 15,
+        "end": 17,
+        "category": "Accuracy/Other"
+      }
+    ],
+    "explanation": "1. 中文「不要」，台文是「毋通」。\n2. 中文「操心煩惱」，台文是「操煩」。"
+  },
+  "34": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "34",
+    "source": "你如果不要在那挑起事端，他們就不會吵架！",
+    "target": "你若無愛佇遐激骨仔，𪜶就袂相觸！",
+    "reference": "你若莫佇遐抐，𪜶就袂冤家！",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "無愛",
+        "severity": "Major",
+        "start": 2,
+        "end": 4,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "激骨仔",
+        "severity": "Major",
+        "start": 6,
+        "end": 9,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "相觸",
+        "severity": "Minor",
+        "start": 13,
+        "end": 15,
+        "category": "Fluency/Register",
+        "original_start": 14,
+        "original_end": 16,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1. 中文「不要」，台文是「莫」。\n2. 中文「挑起事端」、「攪和」、「慫恿」，台文是「抐」。\n3. 中文「吵架」，台文是「冤家」。"
+  },
+  "35": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "35",
+    "source": "他的胃不好，比較不喜歡吃油膩葷腥的食物。",
+    "target": "伊的胃無好，較無愛食油臊的物件。",
+    "reference": "伊的胃毋好，較無愛食油臊。",
+    "rater": "rater1",
+    "score7": 6,
+    "score100": 100,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "36": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "36",
+    "source": "為人處事若不勤快，一輩子不會有好日子過。",
+    "target": "人做代誌若無骨力，一世人也袂好命。",
+    "reference": "做人若貧惰，一世人袂快活。",
+    "rater": "rater1",
+    "score7": 5.8,
+    "score100": 96.67,
+    "spans": [
+      {
+        "text": "人做代誌",
+        "severity": "Minor",
+        "start": 0,
+        "end": 4,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「為人處事」，台文是「做人」。"
+  },
+  "37": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "37",
+    "source": "一陣春風吹過來，讓人覺得十分的舒服，神清氣爽。",
+    "target": "一陣春風吹來，予人感覺真爽快，心肝頭掠坦橫。",
+    "reference": "一陣春風吹來，予人感覺誠清彩。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "心肝頭",
+        "severity": "Minor",
+        "start": 15,
+        "end": 18,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "掠坦橫",
+        "severity": "Major",
+        "start": 18,
+        "end": 21,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「神清氣爽」，台文是「清彩」。"
+  },
+  "38": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "38",
+    "source": "家裡若有其他可靠的收入來摻合著用，錢的用度就會比較有餘裕。",
+    "target": "厝內若會當加減仔趁一寡外路仔來鬥相添，錢水就較袂遐爾仔焦。",
+    "reference": "厝內若有活水來透，錢的用度就會較冗剩。",
+    "rater": "rater1",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "會當加減仔趁一寡外路仔",
+        "severity": "Major",
+        "start": 3,
+        "end": 14,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "錢水",
+        "severity": "Minor",
+        "start": 19,
+        "end": 21,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "就較袂遐爾仔焦",
+        "severity": "Minor",
+        "start": 21,
+        "end": 28,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「可靠的收入」，台文是「活水」。\n2. 中文「錢的用度」，台文是「錢的用度」。\n3. 中文「有餘裕」，台文是「較冗剩」。"
+  },
+  "39": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "39",
+    "source": "俗諺說：「清明節不回家祭祖掃墓，會背負背祖忘本之名；而過年不回家的出外人，可能是無家庭觀念或是沒妻小的人。」就算你現在在外頭租的屋子離父母家很遠，逢年過節都得回去。",
+    "target": "俗語講：「清明毋轉去拜祖公，是咧卸世家。」過年毋轉去的出外人，有可能無厝通好轉、抑是孤單一个。你這馬佇外位稅的所在離爸母較遠，嘛著逐年過年過節攏愛轉來。",
+    "reference": "俗語講：「清明無轉厝，無祖；過年無轉厝，無某。」就算你這陣佇外位稅的厝離爸母的厝不止仔遠，過年過節嘛愛轉去。",
+    "rater": "rater1",
+    "score7": 3.8,
+    "score100": 63.33,
+    "spans": [
+      {
+        "text": "拜祖公",
+        "severity": "Minor",
+        "start": 10,
+        "end": 13,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "拜祖公",
+        "severity": "Minor",
+        "start": 10,
+        "end": 13,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "卸世家",
+        "severity": "Major",
+        "start": 16,
+        "end": 19,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "卸世家",
+        "severity": "Major",
+        "start": 16,
+        "end": 19,
+        "category": "Accuracy/Other"
+      },
+      {
+        "text": "無厝通好轉",
+        "severity": "Major",
+        "start": 34,
+        "end": 39,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "孤單一个",
+        "severity": "Minor",
+        "start": 42,
+        "end": 46,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "孤單一个",
+        "severity": "Minor",
+        "start": 42,
+        "end": 46,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "所在",
+        "severity": "Minor",
+        "start": 55,
+        "end": 57,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "爸母",
+        "severity": "Minor",
+        "start": 58,
+        "end": 60,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "逐年",
+        "severity": "Minor",
+        "start": 65,
+        "end": 67,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "來",
+        "severity": "Major",
+        "start": 74,
+        "end": 75,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "清明毋轉去拜祖公，是咧卸世家。",
+        "severity": "Minor",
+        "start": 5,
+        "end": 20,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 中文「祭祖掃墓」，台文是「祭祖培墓」。\n2. 台文沒有「卸世家」的說法。\n3. 中文「無家庭觀念」，台文是「無家庭觀念」。\n4. 中文「沒妻小」，台文是「無某囝」。\n5. 中文「租的屋子」，台文是「稅的厝」。\n6. 中文「父母家」，台文是「爸母的厝」。\n7. 中文「逢年過節」，台文是「過年過節」。\n8. 中文「回去」，台文是「轉去」。\n9.「清明節不回家祭祖掃墓，會背負背祖忘本之名；而過年不回家的出外人，可能是無家庭觀念或是沒妻小的人」，可用台語俗諺「清明無轉厝，無祖；過年無轉厝，無某。」對應。"
+  },
+  "40": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "40",
+    "source": "等到鍋子的溫度夠熱了之後，再把油放下去炒。",
+    "target": "鼎熱才落油來煎。",
+    "reference": "聽候鼎熱的時，才下油落去炒。",
+    "rater": "rater1",
+    "score7": 3.5,
+    "score100": 58.33,
+    "spans": [
+      {
+        "text": "鼎熱",
+        "severity": "Minor",
+        "start": 0,
+        "end": 2,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "落",
+        "severity": "Major",
+        "start": 3,
+        "end": 4,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "煎",
+        "severity": "Major",
+        "start": 6,
+        "end": 7,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「等到」，台文是「等到」、「聽候」。\n2. 中文「油放下去」，台文是「下油」。\n3. 中文「炒」，台文是「炒」。"
+  },
+  "41": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "41",
+    "source": "沒有月光的夜晚走路，有人相陪作伴，膽子就比較大。",
+    "target": "無月娘的暗暝行路，有人做伴，心肝頭較袂驚惶。",
+    "reference": "月暗暝行路，有人陪伴，就較在膽。",
+    "rater": "rater1",
+    "score7": 6,
+    "score100": 100,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "42": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "42",
+    "source": "這個孩子才四個月大而已，骨骼就發育得很硬朗，很容易抱。",
+    "target": "這个囡仔四月日爾爾，骨格生做真勇，誠好抱。",
+    "reference": "這个囡仔四個月爾爾就真硬插，足好抱。",
+    "rater": "rater1",
+    "score7": 6,
+    "score100": 100,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "43": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "43",
+    "source": "我的孫子很喜歡糕粿類的食品，甜的、鹹的他都喜歡。",
+    "target": "阮孫仔足愛食粿類的物件，甜的、鹹的攏愛食。",
+    "reference": "阮孫誠有粿路，甜的、鹹的伊攏好。",
+    "rater": "rater1",
+    "score7": 6,
+    "score100": 100,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "44": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "44",
+    "source": "賣這個賣一個賺一個，成本二十五元賣五十元。",
+    "target": "賣這个賣一个趁一个，本錢二十五箍賣五十箍。",
+    "reference": "賣這合仔趁，本錢二五賣五十。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "二十五箍",
+        "severity": "Minor",
+        "start": 12,
+        "end": 16,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "五十箍",
+        "severity": "Minor",
+        "start": 17,
+        "end": 20,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「賣一個賺一個」，台文可用「合仔趁」對應。\n2. 價格單位在台語口語通常省略「元」直接說數字。中文「二十五元賣五十元」台文會說「二五賣五十」。"
+  },
+  "45": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "45",
+    "source": "你沒聽人家說「勤奮耕耘，就會有好的食物，而懶惰者就只能吞口水」嗎？只要肯做就不怕沒東西吃，最怕的是只想吃卻不去工作賺錢，可能就得倚靠他人生活了。",
+    "target": "你無聽人講「一粒米百粒汗」、「食飯皇帝大」是毋？只要肯做就免驚無物件通食，上驚的是想欲食毋做工課趁錢，可能著愛靠別人過日矣。",
+    "reference": "你無聽人講「骨力食栗，貧惰吞瀾」呢？若肯做就毋驚無通食，上驚的是欲食毋討趁，可能就愛看人食穿矣。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "一粒米百粒汗",
+        "severity": "Major",
+        "start": 6,
+        "end": 12,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "食飯皇帝大",
+        "severity": "Major",
+        "start": 15,
+        "end": 20,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "毋",
+        "severity": "Major",
+        "start": 44,
+        "end": 45,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 中文「勤奮耕耘，就會有好的食物，而懶惰者就只能吞口水」，台文可用俗諺「骨力食栗，貧惰吞瀾」對應。\n2. 中文「卻」，台文是「煞」。"
+  },
+  "46": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "46",
+    "source": "那個被神明附身的乩童，在神明離開後，全身都無力了。",
+    "target": "彼个予神明附身過的乩童，神明走了後，規身軀攏無氣力矣。",
+    "reference": "彼个童乩退童了後，規身軀攏無力去。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "予神明附身過的乩童，神明走了後",
+        "severity": "Minor",
+        "start": 2,
+        "end": 17,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 被神明附身的乩童，在神明離開後 (附在乩童身上的神靈離去)，台文可用「退童」對應。"
+  },
+  "47": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "47",
+    "source": "你明天去找看看，有沒有泥水匠可以來修補漏水的地方？",
+    "target": "你明仔載去揣看有塗水師會當來共阮厝頂的破空𫝏予伊好無？",
+    "reference": "你明仔載去揣看有師傅會當來掠漏無？",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "共阮厝頂的破空𫝏予伊好",
+        "severity": "Minor",
+        "start": 14,
+        "end": 25,
+        "category": "Accuracy/Addition",
+        "original_start": 14,
+        "original_end": 26,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "「找出房屋會漏水的地方加以修補」，台文是「掠漏」。"
+  },
+  "48": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "48",
+    "source": "你是一個女孩子家，要留點好形象讓人家日後好來打聽。",
+    "target": "你是一个查某囡仔人，著愛留寡媠氣予後日仔通好探聽。",
+    "reference": "你一个查某囡仔人，嘛留寡予人探聽。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "是",
+        "severity": "Minor",
+        "start": 1,
+        "end": 2,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "媠氣",
+        "severity": "Minor",
+        "start": 14,
+        "end": 16,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "予",
+        "severity": "Minor",
+        "start": 16,
+        "end": 17,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "留寡媠氣予後日仔通好探聽",
+        "severity": "Minor",
+        "start": 12,
+        "end": 24,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 「你是一個女孩子家」，台文在此語域會省略「是」，變成「你一个查某囡仔人」。\n2.  「留點好形象」，台文是「留寡形象」。\n3.  「讓人家」，台文是「予人」。\n4. 「留點好形象讓人家日後好來打聽」，台文是「留寡予人探聽」。"
+  },
+  "49": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "49",
+    "source": "那兩個小孩子口中含水互相噴洒，很噁心骯髒呢。",
+    "target": "彼兩个囡仔喙內含水相噴，真垃圾。",
+    "reference": "彼兩个囡仔咧相霧水，足癩𰣻的。",
+    "rater": "rater1",
+    "score7": 3.5,
+    "score100": 58.33,
+    "spans": [
+      {
+        "text": "喙內含水相噴",
+        "severity": "Minor",
+        "start": 5,
+        "end": 11,
+        "category": "Other/None"
+      },
+      {
+        "text": "真垃圾",
+        "severity": "Minor",
+        "start": 12,
+        "end": 15,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 口中先含水再將其噴出，台文可用「霧水」對應。\n2. 中文「噁心骯髒」，台文可用「癩𰣻」對應。台文「垃圾」僅骯髒，沒有噁心之意。"
+  },
+  "50": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "50",
+    "source": "你這乳臭未乾的小子，自以為長大了就不肯聽話，我看你是皮癢的樣子。",
+    "target": "你這个油雞仔囝，大漢了後煞毋願聽話，我看你是咧起𤺪矣。",
+    "reference": "囡仔疕爾爾就生毛閣發角，我看你是皮咧癢的款。",
+    "rater": "rater1",
+    "score7": 0.5,
+    "score100": 8.33,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "51": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "51",
+    "source": "像你這樣好逸惡勞，我看這一輩子都不會有出息了。",
+    "target": "親像你這款食好做輕可，我看這世人袂大才情矣。",
+    "reference": "欲食毋討趁，我看你這世人抾捔矣。",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "食好做輕可",
+        "severity": "Major",
+        "start": 5,
+        "end": 10,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "袂大才情",
+        "severity": "Major",
+        "start": 16,
+        "end": 20,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「好逸惡勞」，台文是「欲食毋討趁」。\n2. 中文「不會有出息」，台文是「抾捔」、「袂出脫」。"
+  },
+  "52": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "52",
+    "source": "事情若交給那個會帶來厄運的人做，一定會很淒慘。",
+    "target": "代誌若交予彼个會𤆬衰的人做，一定會真悽慘。",
+    "reference": "代誌若交予彼个長尾星做，包害的。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "𤆬衰",
+        "severity": "Minor",
+        "start": 8,
+        "end": 10,
+        "category": "Accuracy/Other",
+        "original_start": 8,
+        "original_end": 11,
+        "_auto_fixed": true
+      },
+      {
+        "text": "一定",
+        "severity": "Minor",
+        "start": 14,
+        "end": 16,
+        "category": "Other/None",
+        "original_start": 15,
+        "original_end": 17,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1.「會帶來厄運的人」，台文可用「長尾星」對應。\n2. 中文「一定」，台文是「一定」、「絕對」、「定著」，更道地的台文可用「包」、「穩」、「包穩」、「百面」對應。"
+  },
+  "53": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "53",
+    "source": "人家說「吃得快容易打破碗」，你還是要按部就班。",
+    "target": "人講：「食緊挵破碗」，你猶是照起工來較穩當。",
+    "reference": "人講「食緊挵破碗」，你著照步來。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "54": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "54",
+    "source": "馬上就要考試了，還一副漫不經心，無所謂的樣子。",
+    "target": "隨欲考矣，閣彼號冗剩面，無要緊的款。",
+    "reference": "連鞭就欲考試矣，閣按呢無要無緊。",
+    "rater": "rater1",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "隨",
+        "severity": "Minor",
+        "start": 0,
+        "end": 1,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "考",
+        "severity": "Minor",
+        "start": 2,
+        "end": 3,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "冗剩面",
+        "severity": "Major",
+        "start": 8,
+        "end": 11,
+        "category": "Purity/None"
+      },
+      {
+        "text": "無要緊",
+        "severity": "Minor",
+        "start": 12,
+        "end": 15,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「馬上」，台文「隨」也是馬上的意思，這裡用台文「連鞭」更道地。\n2. 中文「考試」，台文是「考試」。\n3. 台文沒有「冗剩面」的用法。中文「漫不經心，無所謂」，台文是「無要無緊」。"
+  },
+  "55": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "55",
+    "source": "他有一些話保留著，是要留著吵架時拿來駁倒對方。",
+    "target": "伊有一寡話留咧是欲予人反駁。",
+    "reference": "伊有一寡話囥咧，欲留咧做相罵本。",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "留",
+        "severity": "Minor",
+        "start": 5,
+        "end": 6,
+        "category": "Purity/None"
+      },
+      {
+        "text": "予人反駁",
+        "severity": "Major",
+        "start": 9,
+        "end": 13,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「保留話語」、「藏話」，台文是「囥話」。中文「話保留著」，台文是「話囥咧」。\n2. 「吵架、爭辯時可以用來駁倒對方的話」，台文可用「相罵本」對應。"
+  },
+  "56": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "56",
+    "source": "「沒出太陽，不知已過了中午；沒留鬍子，不知人已老邁」，年輕時的理想依然沒有實現，眨眼間我們都已老年將至了。",
+    "target": "「無日頭，毋知已經過晝時矣；無留喙鬚，毋知人已經食甲老矣」，少年時的理想猶原無完成，目一下𥍉咱攏老矣。",
+    "reference": "「無日毋知晝，無鬚毋知老」，少年時的理想攏猶未實現，目一下𥍉咱都半老老矣。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "「無日頭，毋知已經過晝時矣；無留喙鬚，毋知人已經食甲老矣」",
+        "severity": "Minor",
+        "start": 0,
+        "end": 29,
+        "category": "Purity/None"
+      },
+      {
+        "text": "「無日頭，毋知已經過晝時矣；無留喙鬚，毋知人已經食甲老矣」",
+        "severity": "Minor",
+        "start": 0,
+        "end": 29,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "老",
+        "severity": "Minor",
+        "start": 48,
+        "end": 49,
+        "category": "Purity/None",
+        "original_start": 49,
+        "original_end": 50,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1.「沒出太陽，不知已過了中午；沒留鬍子，不知人已老邁」，可用台文俗諺「無日毋知晝，無鬚毋知老」對應。\n2. 中文「老年將至」、「半老」，台文是「半老老」。"
+  },
+  "57": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "57",
+    "source": "他天生就比較粗魯、率直，你不要和他計較。",
+    "target": "伊生做粗皮粗皮閣較戇直，你莫佮伊計較。",
+    "reference": "伊生本較土性，你莫佮伊計較。",
+    "rater": "rater1",
+    "score7": 3.8,
+    "score100": 63.33,
+    "spans": [
+      {
+        "text": "生做",
+        "severity": "Major",
+        "start": 1,
+        "end": 3,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "粗皮粗皮",
+        "severity": "Major",
+        "start": 3,
+        "end": 7,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "戇直",
+        "severity": "Minor",
+        "start": 9,
+        "end": 11,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "1. 「天生的、與生俱來」，台文是「生本」。\n2. 中文「粗魯」，台文是「粗魯」。形容人的個性較粗魯、率直，台文可用「土性」對應。"
+  },
+  "58": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "58",
+    "source": "「捧著裝神主牌的米斗送葬」是長孫的任務。",
+    "target": "「提香爐仔的米甕去送死人」是長孫的工課。",
+    "reference": "「捀斗上山頭」是大孫的任務。",
+    "rater": "rater1",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "提香爐仔的米甕去送死人",
+        "severity": "Major",
+        "start": 1,
+        "end": 12,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "工課",
+        "severity": "Minor",
+        "start": 17,
+        "end": 19,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1.「捧著裝神主牌的米斗送葬」，台文叫做「捀斗上山頭」。\n2. 中文「任務」，台文是「任務」。"
+  },
+  "59": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "59",
+    "source": "人生在世要放開心胸，才不會老是覺得煩悶。",
+    "target": "人出世著愛放予開，毋通老來咧想東想西。",
+    "reference": "做人著愛想予伊開，較袂心悶。",
+    "rater": "rater1",
+    "score7": 0,
+    "score100": 0,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "60": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "60",
+    "source": "有燒香就會得神佛保佑，有吃藥就會有療效。",
+    "target": "若有燒香就通保庇咱，若食藥仔就會當醫好病症。",
+    "reference": "有燒香有保庇，有食藥有行氣。",
+    "rater": "rater1",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "61": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "61",
+    "source": "你很喜歡動來動去咧，難道不可以安靜一下？",
+    "target": "你真愛走相逐，敢袂使恬落來？",
+    "reference": "你真愛捙盤呢，敢袂使靜一下？",
+    "rater": "rater1",
+    "score7": 4.8,
+    "score100": 80,
+    "spans": [
+      {
+        "text": "走相逐",
+        "severity": "Major",
+        "start": 3,
+        "end": 6,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "走相逐",
+        "severity": "Major",
+        "start": 3,
+        "end": 6,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "恬落來",
+        "severity": "Minor",
+        "start": 10,
+        "end": 13,
+        "category": "Other/None"
+      }
+    ],
+    "explanation": "1. 中文「動來動去」，台文是「蟯蟯動」。\n2. 此句台文應使用「呢」加強語氣的語助詞，「你真愛蟯蟯動呢」更貼切。\n3. 中文「安靜一下」，台文可說「恬落來」，更文言可說「靜一下」。"
+  },
+  "62": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "62",
+    "source": "真要命喲，車都要開了，他到現在還不出現。",
+    "target": "真害矣呢，車攏欲開出去矣，伊到今猶毋出現。",
+    "reference": "買命喔，車欲開矣，伊猶毋來。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "真害",
+        "severity": "Minor",
+        "start": 0,
+        "end": 2,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "矣",
+        "severity": "Minor",
+        "start": 2,
+        "end": 3,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "呢",
+        "severity": "Minor",
+        "start": 3,
+        "end": 4,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "出去",
+        "severity": "Major",
+        "start": 9,
+        "end": 11,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "1. 中文「真要命喲」，台文是「買命喔」。"
+  },
+  "63": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "63",
+    "source": "農曆六月的天氣就像火燒山，整天都很悶熱。",
+    "target": "舊曆六月天的天氣熱甲若像咧著火，規日攏足𤺪熱的。",
+    "reference": "六月天火燒埔，規日攏誠鬱熱。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "咧著火",
+        "severity": "Minor",
+        "start": 12,
+        "end": 15,
+        "category": "Accuracy/Other"
+      },
+      {
+        "text": "𤺪熱",
+        "severity": "Major",
+        "start": 20,
+        "end": 22,
+        "category": "Purity/None",
+        "original_start": 20,
+        "original_end": 23,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1. 中文「火燒山」，台文是「火燒埔」。\n2. 中文「悶熱」，台文是「鬱熱」、「翕熱」。"
+  },
+  "64": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "64",
+    "source": "小時候要好好學習，長大之後才能有所成就。",
+    "target": "細漢著愛好育飼，大漢了後才有出脫。",
+    "reference": "細漢愛認真學，大漢才會成樣。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "好",
+        "severity": "Major",
+        "start": 4,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "育飼",
+        "severity": "Major",
+        "start": 5,
+        "end": 7,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「好好學習」，台文是「好好學習」，更道地的台語會說「認真學」。"
+  },
+  "65": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "65",
+    "source": "你們兩個不要再用言語相激了，不然，等一下又要吵起來了。",
+    "target": "恁兩个毋通閣講甲喙角全波矣，若無，等咧欲閣冤起來矣。",
+    "reference": "恁兩个莫閣相激矣，無，等一下閣起冤家。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "講甲喙角全波",
+        "severity": "Major",
+        "start": 6,
+        "end": 12,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "冤起來",
+        "severity": "Minor",
+        "start": 21,
+        "end": 24,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 中文「言語相激」，台文是「相激」。\n2. 中文「吵起來」，台文是「起冤家」。"
+  },
+  "66": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "66",
+    "source": "從我家裡到公司，走路只要一眨眼的時間就可以到了。",
+    "target": "對阮兜來去公司行路干焦目睭眨幾下仔爾爾就到矣。",
+    "reference": "對阮厝到公司，行路一目𥍉仔就到矣。",
+    "rater": "rater1",
+    "score7": 4.8,
+    "score100": 80,
+    "spans": [
+      {
+        "text": "干焦目睭眨幾下仔爾爾",
+        "severity": "Minor",
+        "start": 9,
+        "end": 19,
+        "category": "Style/Other"
+      },
+      {
+        "text": "干焦目睭眨幾下仔爾爾",
+        "severity": "Minor",
+        "start": 9,
+        "end": 19,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "「一眨眼的時間」，台文用「一目𥍉仔」表示即可。"
+  },
+  "67": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "67",
+    "source": "這個小孩子常說不該說的話，別人比較不愛跟他相處。",
+    "target": "這个囡仔不時講毋著喙的話，人較無愛佮伊鬥陣。",
+    "reference": "這个囡仔真歹喙，人較無愛佮伊鬥陣。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "不時講毋著喙的話",
+        "severity": "Minor",
+        "start": 4,
+        "end": 12,
+        "category": "Style/Other"
+      }
+    ],
+    "explanation": "「常說不該說的話」、「不得體、負面的話」，台文是「真歹喙」"
+  },
+  "68": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "68",
+    "source": "你就是命太好了，才會吃飯不知米價，不懂民生疾苦。",
+    "target": "你就是命好，才會食飯毋知米價，毋捌民瘼。",
+    "reference": "你就是傷好命，才會食米毋知影米價。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "命好",
+        "severity": "Major",
+        "start": 3,
+        "end": 5,
+        "category": "Purity/None"
+      },
+      {
+        "text": "食飯毋知米價",
+        "severity": "Minor",
+        "start": 8,
+        "end": 14,
+        "category": "Purity/None"
+      },
+      {
+        "text": "，毋捌民瘼。",
+        "severity": "Minor",
+        "start": 14,
+        "end": 20,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "1. 中文「命太好了」，台文是「傷好命」。\n2. 中文「吃飯不知米價，不懂民生疾苦」，可用台文熟語「食米毋知影米價」對應。"
+  },
+  "69": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "69",
+    "source": "地震之後，全家死絕，只剩下他一個孤身無靠的老人。",
+    "target": "地動了後，規家伙仔攏無去，賰伊一个老大人孤老無人伴。",
+    "reference": "地動了後，規家死甲賰伊一个老孤𣮈。",
+    "rater": "rater1",
+    "score7": 6,
+    "score100": 100,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "70": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "70",
+    "source": "那次讓你僥倖避開了，這次你必須按規矩行事。",
+    "target": "彼擺予你僥倖閃過，這擺你著照步來。",
+    "reference": "彼擺予你閃過，這擺你愛照步來。",
+    "rater": "rater1",
+    "score7": 5.8,
+    "score100": 96.67,
+    "spans": [
+      {
+        "text": "僥倖",
+        "severity": "Major",
+        "start": 4,
+        "end": 6,
+        "category": "Purity/"
+      }
+    ],
+    "explanation": "1. 中文「僥倖」，台文是「好運」。"
+  },
+  "71": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "71",
+    "source": "你要把事情發生的原委詳實的講出來讓我知道。",
+    "target": "你愛共代誌的因由詳細仔講予我知影。",
+    "reference": "你愛共代誌的經過詳細講予我知。",
+    "rater": "rater1",
+    "score7": 6,
+    "score100": 100,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "72": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "72",
+    "source": "他忠厚又常常面帶笑容，相處越久越有人緣，讓人越看越中意。",
+    "target": "伊忠厚閣不時笑微微，鬥陣愈久愈有人緣，予人看著愈佮意。",
+    "reference": "伊古意閣好笑神，真深緣，予人愈看愈中意。",
+    "rater": "rater1",
+    "score7": 5.9,
+    "score100": 98.33,
+    "spans": [
+      {
+        "text": "忠厚閣不時笑微微",
+        "severity": "Minor",
+        "start": 1,
+        "end": 9,
+        "category": "Fluency/Other"
+      },
+      {
+        "text": "鬥陣愈久愈有人緣，予人看著愈佮意",
+        "severity": "Minor",
+        "start": 10,
+        "end": 26,
+        "category": "Fluency/Other"
+      }
+    ],
+    "explanation": "1.「忠厚又常常面帶笑容」，台文可用「古意閣好笑神」表示。\n2.「相處越久越有人緣，讓人越看越中意」、「讓人越熟識就越喜愛的特質」，台文可用「深緣」對應。"
+  },
+  "73": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "73",
+    "source": "俗話說：「三年一次閏月，風水輪流轉。」艱難困苦總有過去的時候，稍微忍耐一下，就會走出霉運了。",
+    "target": "俗語講：「三年一閏，好歹照輪。」艱苦過日總是會過去，小可仔忍耐咧，就通脫離衰運矣。",
+    "reference": "俗語講：「三年一閏，好歹照輪。」艱苦有時過，小可忍咧，就會出運矣。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "過日",
+        "severity": "Minor",
+        "start": 18,
+        "end": 20,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "小可仔忍耐咧",
+        "severity": "Minor",
+        "start": 26,
+        "end": 32,
+        "category": "Fluency/Other"
+      },
+      {
+        "text": "就通脫離衰運矣",
+        "severity": "Minor",
+        "start": 33,
+        "end": 40,
+        "category": "Style/Other"
+      }
+    ],
+    "explanation": "1.「稍微忍耐一下」，台文「小可仔忍耐咧」意思正確，用「小可忍咧」更道地。\n2. 「通脫離衰運矣」很拗口，一般台語會說「就會出運矣」。"
+  },
+  "74": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "74",
+    "source": "手機明明就擺在桌上，你卻說你找不到，真的是「眼睛大歸大，竟會連這麼顯而易見的東西也看不見」！",
+    "target": "手機仔明明就囥佇桌頂，你煞講揣無，真正是「目睭金金看著，毋知通好提來用」啦！",
+    "reference": "手機仔現現都𫞼佇桌頂，你煞應講你揣無，有影是「大目新娘無看見灶」！",
+    "rater": "rater1",
+    "score7": 4.95,
+    "score100": 82.5,
+    "spans": [
+      {
+        "text": "「目睭金金看著，毋知通好提來用」",
+        "severity": "Minor",
+        "start": 20,
+        "end": 36,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "啦",
+        "severity": "Minor",
+        "start": 36,
+        "end": 37,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "「眼睛大歸大，竟會連這麼顯而易見的東西也看不見」，可用台文俗諺「大目新娘無看見灶」對應。"
+  },
+  "75": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "75",
+    "source": "人活在世上，吃飯最重要，所以我們說：「吃飯的時候跟皇帝一樣大。」",
+    "target": "人活咧食穿上要緊，所以咱講：「食飯皇帝大。」",
+    "reference": "人生在世，食上重要，所以咱講：「食飯皇帝大。」",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "人活咧",
+        "severity": "Minor",
+        "start": 0,
+        "end": 3,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "食穿",
+        "severity": "Minor",
+        "start": 3,
+        "end": 5,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "1.中文「人活在世上」，台文可用「人生在世」對應。"
+  },
+  "76": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "76",
+    "source": "在祖先的忌辰祭拜時，咱們得要燃香召請他們來享用酒菜",
+    "target": "佇祖公仔生忌咧拜拜的時陣，阮著愛燒香叫伊來食飯",
+    "reference": "公媽做忌，咱著點香呼請𪜶來享用酒菜。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "佇祖公仔生忌咧拜拜的時陣",
+        "severity": "Minor",
+        "start": 0,
+        "end": 12,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "叫伊",
+        "severity": "Major",
+        "start": 18,
+        "end": 20,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 祖先的忌辰祭拜時，台文可用「公媽做忌」對應。\n2. 請他們，台文是「叫in」。"
+  },
+  "77": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "77",
+    "source": "俗話說：「媒人只保證雙方完婚入洞房，不能保證一輩子平順。」婚姻要想甜蜜蜜、夫妻要想白頭偕老，全靠你們自己囉！",
+    "target": "俗語講：「媒人干焦會當共人做親情，袂當予人食百二。」婚姻欲好甲按怎，翁仔某著愛好好仔拍拚喔！",
+    "reference": "俗語講：「媒人保入房，無保一世人。」婚姻欲糖甘甜、翁某欲好透流，盡靠恁家己囉！",
+    "rater": "rater1",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/"
+      },
+      {
+        "text": "媒人干焦會當共人做親情，袂當予人食百二",
+        "severity": "Major",
+        "start": 5,
+        "end": 24,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "欲好甲按怎，",
+        "severity": "Minor",
+        "start": 28,
+        "end": 34,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "欲好甲按怎，",
+        "severity": "Minor",
+        "start": 28,
+        "end": 34,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "著愛好好仔拍拚喔！",
+        "severity": "Major",
+        "start": 37,
+        "end": 46,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1.「媒人只保證雙方完婚入洞房，不能保證一輩子平順」，台文「媒人保入房，無保一世人」。\n2. 「婚姻要想甜蜜蜜」，台文「婚姻欲糖甘甜」。\n3.「夫妻要想白頭偕老」，台文「翁某欲好透流」。\n4.「全靠你們自己囉！」，台文「盡靠恁家己囉！」。"
+  },
+  "78": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "78",
+    "source": "「不能只因懷疑，便將人當賊」，如果沒有證據可以證明，就不能隨意誣賴他人。",
+    "target": "「毋通干焦因為臆，就共人講是賊仔」，若無證據會使證明，就毋通凊彩冤枉別人。",
+    "reference": "「疑人，毋成賊」，若無證據通做干證，就袂當烏白賴人。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "毋通干焦因為臆，就共人講是賊仔",
+        "severity": "Minor",
+        "start": 1,
+        "end": 16,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "冤枉",
+        "severity": "Minor",
+        "start": 32,
+        "end": 34,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「不能只因懷疑，便將人當賊」，台文可用俗諺「疑人，毋成賊」對應。\n2. 中文「誣賴」，台文是「誣賴」。"
+  },
+  "79": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "79",
+    "source": "人們說：「天上的天公，人世間的舅舅都是最尊貴的。」對你舅舅要尊重一點，以後你娶老婆的時候還需要仰賴他來坐上位，才可以開席呢。",
+    "target": "人講：「天的天公，地的地基，人的爸母。」對咱阿舅愛有禮貌一下，日後你娶某欲坐大位的時，猶閣愛靠伊共你鬥扶挺咧。",
+    "reference": "人講：「天頂天公，地下母舅公。」你對恁阿舅愛較尊重咧，後擺娶某著向伊坐大位，才聽好開桌呢。",
+    "rater": "rater1",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/"
+      },
+      {
+        "text": "天的天公，地的地基，人的爸母。",
+        "severity": "Major",
+        "start": 4,
+        "end": 19,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "咱",
+        "severity": "Major",
+        "start": 21,
+        "end": 22,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "愛有禮貌一下",
+        "severity": "Major",
+        "start": 24,
+        "end": 30,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "欲坐大位",
+        "severity": "Major",
+        "start": 36,
+        "end": 40,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "猶閣愛靠伊共你鬥扶挺咧",
+        "severity": "Major",
+        "start": 43,
+        "end": 54,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「天上的天公，人世間的舅舅都是最尊貴的」，台文可用「天頂天公，地下母舅公」對應。\n2. 中文「你舅舅」，台文是「恁阿舅」。\n3. 中文「以後你娶老婆的時候」，台文是「日後你娶某的時」。\n4. 中文「還需要仰賴他來坐上位」台文是「著向伊坐大位」。\n5. 中文「才可以開席呢」台文是「才聽好開桌呢」。"
+  },
+  "80": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "80",
+    "source": "若是每個人都能稍微忍耐一下，就會天下太平了。",
+    "target": "「若逐个人會當小可仔吞忍咧，就世界太平矣。」",
+    "reference": "逐个人若攏忍一下，就天下太平矣。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "會當",
+        "severity": "Minor",
+        "start": 5,
+        "end": 7,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "世界",
+        "severity": "Minor",
+        "start": 15,
+        "end": 17,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「都能」，台文是「攏會當」也可直接省略說「攏」。\n2. 中文「天下太平」，台文是「天下太平」。"
+  },
+  "81": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "81",
+    "source": "番薯放一陣子，水分少一點以後，吃起來比較甜。",
+    "target": "番薯囥一站仔，水份減寡了後，食著較甘甜。",
+    "reference": "番薯囥咧予伊收水了後，食著較甜。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "囥一站仔，水份減寡",
+        "severity": "Minor",
+        "start": 2,
+        "end": 11,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1.「放一陣子，水分少一點」物體內部的水分慢慢消失掉，台文可用「收水」對應。"
+  },
+  "82": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "82",
+    "source": "媽媽氣得說不出話來，只是一直捶打自己的胸膛。",
+    "target": "阿母氣甲袂講得，干焦一直共家己拍心肝仔。",
+    "reference": "阿母氣甲袂講話，干焦直直捶心肝。",
+    "rater": "rater1",
+    "score7": 4.5,
+    "score100": 75,
+    "spans": [
+      {
+        "text": "袂講得",
+        "severity": "Major",
+        "start": 4,
+        "end": 7,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "一直共家己拍心肝仔",
+        "severity": "Major",
+        "start": 10,
+        "end": 19,
+        "category": "Purity/"
+      },
+      {
+        "text": "心肝仔",
+        "severity": "Major",
+        "start": 16,
+        "end": 19,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「氣得說不出話來」，台文是「氣甲袂講話」。\n2. 中文「一直捶打自己的胸膛」，台文是「直直捶心肝」。"
+  },
+  "83": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "83",
+    "source": "以前的人說：「戲台上的演員演得汗流浹背，戲台下的觀眾批評得口沫橫飛。」反正做事總是不能符合眾人的意思，想做就認真做，不用怕別人批評。",
+    "target": "古早人講：「舞台頂的演員搬甲流汗，台跤的人罵甲喙角全波。」總是有做袂到眾人的意思，若欲做就認真去做，免驚別人嫌。",
+    "reference": "古早人講：「棚頂做甲流汗，棚跤嫌甲流瀾。」橫直做代誌總是袂中眾人意，欲做就認真做，毋免驚人批評。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "舞台頂的演員搬甲流汗，台跤的人罵甲喙角全波。",
+        "severity": "Minor",
+        "start": 6,
+        "end": 28,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "有做袂到眾人的意思",
+        "severity": "Minor",
+        "start": 31,
+        "end": 40,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 中文「戲台上的演員演得汗流浹背，戲台下的觀眾批評得口沫橫飛」，可用台文俗諺「棚頂做甲流汗，棚跤嫌甲流瀾」對應。\n2. 中文「做事總是不能符合眾人的意思」，台文是「做代誌總是袂中眾人意」。"
+  },
+  "84": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "84",
+    "source": "他是一個跟人家爭論就不認輸，跟人家打賭又不曾贏的人。",
+    "target": "伊是一个佮人相諍毋認輸、佮人拍牌仔閣無捌贏過的人。",
+    "reference": "伊是一个相諍毋認輸，相輸閣毋捌贏的人。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "拍牌仔",
+        "severity": "Major",
+        "start": 14,
+        "end": 17,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "過",
+        "severity": "Minor",
+        "start": 21,
+        "end": 22,
+        "category": "Accuracy/Other"
+      }
+    ],
+    "explanation": "1. 中文「打賭」，台文是「相輸」。\n2. 中文「不曾贏」，台文是「毋捌贏」。"
+  },
+  "85": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "85",
+    "source": "即使是住在隔壁的親家，必要的禮節還是要遵守，這樣會使得人跟人的關係更親切也更緊密。",
+    "target": "就算是蹛佇隔壁的親情，基本的禮數嘛著愛有，按呢才會當予人佮人的感情較好咧。",
+    "reference": "「隔壁親家，禮數原在」，按呢會予人佮人的關係較親切嘛較搭粒。",
+    "rater": "rater1",
+    "score7": 5.7,
+    "score100": 95,
+    "spans": [
+      {
+        "text": "就算是蹛佇隔壁的親情，基本的禮數嘛著愛有",
+        "severity": "Minor",
+        "start": 0,
+        "end": 20,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "予人佮人的感情較好咧",
+        "severity": "Minor",
+        "start": 26,
+        "end": 36,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 中文「即使是住在隔壁的親家，必要的禮節還是要遵守」，可用台文俗諺「隔壁親家，禮數原在」對應。\n2. 中文「使得人跟人的關係更親切也更緊密」，台文是「予人佮人的關係較親切嘛較搭粒」。"
+  },
+  "86": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "86",
+    "source": "現在賺錢不容易又加上武漢疫情，不過「若像田螺含水度過寒冬日，等待時機」，認真打拼，總有翻身的一天。",
+    "target": "這馬趁錢真僫閣加武漢疫情，毋過「親像田蛤仔含水過寒冬日，等時機」，認真拍拚，總嘛會翻身一工。",
+    "reference": "這馬歹討趁閣拄著疫情，毋過「田螺含水過冬」，認真拍拚，總有出頭天的一工。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "趁錢真僫",
+        "severity": "Minor",
+        "start": 2,
+        "end": 6,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "親像田蛤仔含水過寒冬日，等時機",
+        "severity": "Minor",
+        "start": 16,
+        "end": 31,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "嘛會",
+        "severity": "Minor",
+        "start": 39,
+        "end": 41,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "嘛會",
+        "severity": "Minor",
+        "start": 39,
+        "end": 41,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "翻身",
+        "severity": "Major",
+        "start": 41,
+        "end": 43,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1. 中文「賺錢不容易」，台文是「歹討趁」。\n2. 中文「若像田螺含水度過寒冬日，等待時機」，可用台文俗諺「田螺含水過冬」對應。\n3. 中文「總有」，台文是「總有」。\n4. 中文「翻身」，台文是「出頭天」。"
+  },
+  "87": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "87",
+    "source": "政府或父母管得愈嚴格，人民或小孩就更會感到厭惡，容易搞鬼耍花招，難怪人家說：「過於嚴苛的官府，小偷反而更加猖狂；父母管教過嚴，小孩越是不成材。」",
+    "target": "政府抑是序大人若較嚴格咧管，人抑是囡仔就會感覺伊足厭𤺪，𠢕變鬼變怪，莫怪人講：「管傷嚴的官府，賊仔顛倒較猖狂；管教傷嚴的爸母，囡仔攏袂成器。」",
+    "reference": "政府抑是爸母管愈嚴，人民抑是序細就閣較會起慼，𠢕變鬼變怪，莫怪人咧講：「嚴官府出厚賊；嚴爸母出阿里不達。」",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "伊足厭𤺪",
+        "severity": "Major",
+        "start": 23,
+        "end": 27,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 23,
+        "original_end": 28,
+        "_auto_fixed": true
+      },
+      {
+        "text": "猖狂",
+        "severity": "Minor",
+        "start": 52,
+        "end": 54,
+        "category": "Fluency/Register",
+        "original_start": 54,
+        "original_end": 56,
+        "_auto_fixed": true
+      },
+      {
+        "text": "攏袂成器",
+        "severity": "Major",
+        "start": 65,
+        "end": 69,
+        "category": "Purity/None",
+        "original_start": 67,
+        "original_end": 71,
+        "_auto_fixed": true
+      },
+      {
+        "text": "管傷嚴的官府，賊仔顛倒較猖狂；管教傷嚴的爸母，囡仔攏袂成器",
+        "severity": "Minor",
+        "start": 40,
+        "end": 69,
+        "category": "Locale/Other",
+        "original_start": 42,
+        "original_end": 71,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1. 中文「感到厭惡」，台文是「起慼」。\n2. 中文「小偷猖狂」，台文是「厚賊」。\n3. 中文「不成材」，台文是「毋成樣」。\n4.「過於嚴苛的官府，小偷反而更加猖狂；父母管教過嚴，小孩越是不成材」，可用台文俗諺「嚴官府出厚賊；嚴爸母出阿里不達」對應。"
+  },
+  "88": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "88",
+    "source": "以前的人最痛恨人家當小偷，因為「雖然只偷一回，但是世世代代都是小偷的族類」，偷別人的東西是會讓無辜的後代子孫蒙羞。",
+    "target": "較早人上驚人做賊仔，因為「雖罔一擺偷提，後日囝孫攏會做賊仔」，偷人的物件是會予後代的囝孫見笑。",
+    "reference": "古早人上慼人做賊，人講「一遍賊，百世賊」，偷提人的物件是會害你的家族仔面皮卸落地呢。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "上驚",
+        "severity": "Major",
+        "start": 3,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "雖罔一擺偷提，後日囝孫攏會做賊仔",
+        "severity": "Minor",
+        "start": 13,
+        "end": 29,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "予後代的囝孫見笑",
+        "severity": "Minor",
+        "start": 38,
+        "end": 46,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 中文「最痛恨」，台文是「上慼」。\n2. 中文「雖然只偷一回，但是世世代代都是小偷的族類」，可用台文俗諺「一遍賊，百世賊」對應。\n3. 中文「讓無辜的後代子孫蒙羞」，台文是「予無辜的後代囝孫卸面皮(卸面子)」。"
+  },
+  "89": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "89",
+    "source": "生病的人還不知道要禁忌一些食物，你實在真糟糕。",
+    "target": "破病的人毋知影欲禁一寡物件食，你實在有夠䆀。",
+    "reference": "破病的人閣毋知欲忌喙，你實在真害。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "毋知影",
+        "severity": "Minor",
+        "start": 4,
+        "end": 7,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "禁一寡物件食",
+        "severity": "Minor",
+        "start": 8,
+        "end": 14,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "䆀",
+        "severity": "Major",
+        "start": 20,
+        "end": 21,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「還不知道」，台文是「閣毋知」、「猶毋知」。\n2. 中文「禁忌一些食物」，台文是「忌喙」。\n3. 中文「糟糕」，台文是「害」。"
+  },
+  "90": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "90",
+    "source": "我們公司的員工已經足夠，沒打算再雇用其他人了。",
+    "target": "阮公司的人已經夠額矣，無欲閣倩人矣。",
+    "reference": "阮公司的員工已經夠額，無欲閣倩矣。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "人",
+        "severity": "Minor",
+        "start": 4,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「員工」，台文是「員工」。"
+  },
+  "91": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "91",
+    "source": "牽罟只要靠到繩索便能分到好處，懷孕的人分雙份。",
+    "target": "掠魚干焦倚著索仔就會分著魚獲，有身的人會當分兩份。",
+    "reference": "牽罟倚索分魚有人有份，大肚分雙份。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "干焦",
+        "severity": "Minor",
+        "start": 2,
+        "end": 4,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "掠魚",
+        "severity": "Major",
+        "start": 0,
+        "end": 2,
+        "category": "Purity/None"
+      },
+      {
+        "text": "掠魚干焦倚著索仔就會分著魚獲，有身的人會當分兩份",
+        "severity": "Minor",
+        "start": 0,
+        "end": 24,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 「牽罟」本就是台文詞彙，翻譯成台文「掠魚」，中文「抓魚」之意，反而不精確。\n2. 此句中文的「只要」，台文是「只要」。\n3.  「牽罟只要靠到繩索便能分到好處，懷孕的人分雙份」，可用台文俗諺「牽罟倚索分魚有人有份，大肚分雙份」對應。"
+  },
+  "92": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "92",
+    "source": "流行性感冒已經蔓延擴大了，你們大家要預先防備。",
+    "target": "流行感冒已經湠甲規四界矣，恁逐家著愛提早預防。",
+    "reference": "流行感冒已經湠開矣，恁逐家愛預防。",
+    "rater": "rater1",
+    "score7": 5.3,
+    "score100": 88.33,
+    "spans": [
+      {
+        "text": "湠甲規四界矣",
+        "severity": "Major",
+        "start": 6,
+        "end": 12,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「蔓延擴大」，台文是「湠開」。"
+  },
+  "93": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "93",
+    "source": "說要拿一些舊衣物給我，到現在還是一點兒也沒有。",
+    "target": "伊講欲提一寡舊衫仔褲予我，到今猶原無影無跡。",
+    "reference": "講欲提一寡舊衫予我，到今閣無半絲。",
+    "rater": "rater1",
+    "score7": 5.3,
+    "score100": 88.33,
+    "spans": [
+      {
+        "text": "仔褲",
+        "severity": "Minor",
+        "start": 8,
+        "end": 10,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "無影無跡",
+        "severity": "Major",
+        "start": 17,
+        "end": 21,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "伊",
+        "severity": "Minor",
+        "start": 0,
+        "end": 1,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "1. 中文「一點兒也沒有」，台文是「攏無」、「無半絲」、「無半項」。"
+  },
+  "94": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "94",
+    "source": "突然來了一陣午後雷陣雨，大伙兒一下子無處可逃。",
+    "target": "雄雄落來一陣西北雨，逐家攏走無路。",
+    "reference": "雄雄一陣西北雨，眾人一時煞走無路。",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "落來",
+        "severity": "Minor",
+        "start": 2,
+        "end": 4,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "攏",
+        "severity": "Minor",
+        "start": 12,
+        "end": 13,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1. 台文「雄雄落來一陣西北雨」的「落來」，中文是「下來」的意思，在此句不通順。台文用「雄雄一陣西北雨」即可。\n2. 此句中的「一下子」，台文可用「一時」對應。"
+  },
+  "95": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "95",
+    "source": "他的親戚裡頭有一個當大官的，說話都會將別人壓得死死的。",
+    "target": "伊的親情內底有一个做大官的，講話攏共人㧣甲仆街。",
+    "reference": "𪜶親情內底有一个大官虎，講話攏會硩死人。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "㧣甲仆街",
+        "severity": "Major",
+        "start": 19,
+        "end": 23,
+        "category": "Purity/None"
+      },
+      {
+        "text": "做大官的",
+        "severity": "Minor",
+        "start": 9,
+        "end": 13,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 權臣、官僚。仗著官位權勢擺威風的大官，台文可用「大官虎」對應。\n2. 台文沒有「㧣甲仆街」的說法。中文「說話都會將別人壓得死死的」台文是「講話攏會共人硩死死。」更精煉的台文會說「講話攏會硩死人」。"
+  },
+  "96": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "96",
+    "source": "你昨天晚上是去當小偷是不是？不然，為什麼精神會這麼差？",
+    "target": "你昨暝是去共人偷提物件無？若無，哪會精神遮爾䆀？",
+    "reference": "你昨暝是去做賊仔呢？無，精神哪會遮爾䆀？",
+    "rater": "rater1",
+    "score7": 5.5,
+    "score100": 91.67,
+    "spans": [
+      {
+        "text": "共人偷提物件",
+        "severity": "Minor",
+        "start": 5,
+        "end": 11,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "無",
+        "severity": "Major",
+        "start": 11,
+        "end": 12,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 「你昨天晚上是去當小偷是不是？」可用台文慣用句「你昨暝是去做賊仔呢？」對應。"
+  },
+  "97": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "97",
+    "source": "人家說：「第三個女兒運好而坐享清福」，難怪你這麼好命。",
+    "target": "人講：「三查某好命，一个較贏過九个大。」無奇怪你遮爾好命。",
+    "reference": "人講：「第三查某囝食命」，莫怪你遐好命。",
+    "rater": "rater1",
+    "score7": 1.5,
+    "score100": 25,
+    "spans": [
+      {
+        "text": "三查某好命，一个較贏過九个大。",
+        "severity": "Major",
+        "start": 4,
+        "end": 19,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "無奇怪",
+        "severity": "Major",
+        "start": 20,
+        "end": 23,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「靠命運好而坐享清福」，台文是「食命」。「第三個女兒運好而坐享清福」，可用台文熟語「第三查某囝食命」對應。\n2. 中文「難怪」，台文是「莫怪」。"
+  },
+  "98": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "98",
+    "source": "你若不是一個真正財務健全的人，休想跟他的會做他的會員。",
+    "target": "你若毋是一个真有財力的人，莫想欲入伊的會仔。",
+    "reference": "你若毋是真正的勇跤，免數想欲綴伊的會仔。",
+    "rater": "rater1",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "入",
+        "severity": "Minor",
+        "start": 16,
+        "end": 17,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "真有財力",
+        "severity": "Minor",
+        "start": 6,
+        "end": 10,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 中文「財務健全」，台文是「勇跤」。\n2. 中文「跟會」、「參加民間的互助會」，台文是「綴會仔」。中文「跟他的會」，台文是「綴伊的會仔」。"
+  },
+  "99": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "99",
+    "source": "他如今會被抓去坐牢，誰會不知道就是你多方教唆帶頭使壞才造成的。",
+    "target": "伊今仔日予人掠去關，啥人知影毋是你四界教唆𤆬頭的才造成--ê。",
+    "reference": "伊今會予人掠入去關，煞毋知都你𠢕牽教來致蔭的。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "啥人知影毋是",
+        "severity": "Major",
+        "start": 10,
+        "end": 16,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「會被抓去」，台文是「會予人掠去」。\n2. 中文「誰會不知道」，台文是「啥人都知影」，更道地的台文會說「煞毋知」。"
+  },
+  "100": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "100",
+    "source": "俗語說：「上山就要觀察山勢而行，入門要看人家的心意而行。」我們若去拜訪人家，就要觀察主人的心意，人家如果正在忙碌，或是想要休息，就應該告辭。",
+    "target": "俗語講：「欲𬦰山著愛看山勢，入厝門著愛看人意。」咱若欲去探訪人客，著愛看主人的心情，人客若是咧無閒抑是想欲歇睏，就愛相辭。",
+    "reference": "俗語講：「上山看山勢，入門看人意。」咱若去人兜拜訪，就愛看主人的心意，人若咧無閒，抑是欲歇睏，就愛告辭。",
+    "rater": "rater1",
+    "score7": 4.95,
+    "score100": 82.5,
+    "spans": [
+      {
+        "text": "探訪人客",
+        "severity": "Major",
+        "start": 28,
+        "end": 32,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 29,
+        "original_end": 33,
+        "_auto_fixed": true
+      },
+      {
+        "text": "人客",
+        "severity": "Major",
+        "start": 42,
+        "end": 44,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 43,
+        "original_end": 45,
+        "_auto_fixed": true
+      },
+      {
+        "text": "欲𬦰山著愛看山勢，入厝門著愛看人意",
+        "severity": "Minor",
+        "start": 5,
+        "end": 22,
+        "category": "Locale/Other",
+        "original_start": 5,
+        "original_end": 23,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1. 「上山就要觀察山勢而行，入門要看人家的心意而行」，可用台文俗諺「上山看山勢，入門看人意」對應。\n2.  中文「去拜訪人家」，台文是「去共人拜訪」、「去人兜拜訪」。\n3.  中文「人家」，台文是「人」。"
+  },
+  "101": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "101",
+    "source": "你是一個壞榜樣，專門在教壞所有的小孩子。",
+    "target": "你這个歹模樣，專門佇教歹所有的囡仔。",
+    "reference": "你歹𤆬頭，專門咧教歹囡仔大細。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "歹模樣",
+        "severity": "Minor",
+        "start": 3,
+        "end": 6,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "佇",
+        "severity": "Major",
+        "start": 9,
+        "end": 10,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "教歹所有的囡仔",
+        "severity": "Minor",
+        "start": 10,
+        "end": 17,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 中文「壞榜樣」，台文用「歹𤆬頭」會更道地。\n2. 中文「在」此句中，台文用「咧」對應。\n3.「教壞所有的小孩子」，台文可用慣用句「教歹囡仔大細」對應。"
+  },
+  "102": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "102",
+    "source": "人如果上了年紀，身體就會開始有很多毛病。",
+    "target": "人若食老，身軀就真𠢕起毛䆀。",
+    "reference": "人若有歲，身體就會開始厚毛病。",
+    "rater": "rater1",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "起毛䆀",
+        "severity": "Major",
+        "start": 10,
+        "end": 13,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 11,
+        "original_end": 14,
+        "_auto_fixed": true
+      },
+      {
+        "text": "起毛䆀",
+        "severity": "Major",
+        "start": 10,
+        "end": 13,
+        "category": "Accuracy/Omission",
+        "original_start": 11,
+        "original_end": 14,
+        "_auto_fixed": true
+      },
+      {
+        "text": "真𠢕起毛䆀",
+        "severity": "Minor",
+        "start": 8,
+        "end": 13,
+        "category": "Locale/Other",
+        "original_start": 8,
+        "original_end": 14,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1. 中文「開始」，台文是「開始」。\n2. 中文「有很多毛病」，台文是「厚毛病」。"
+  },
+  "103": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "103",
+    "source": "拍賣前幾天非常熱鬧，到了快結束的時候，客人剩下不到幾個。",
+    "target": "拍賣欲煞的前幾工鬧熱滾滾，到尾仔人客賰無幾个。",
+    "reference": "拍賣頭幾工鬧熱滾滾，到尾聲，人客賰無幾个。",
+    "rater": "rater1",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "到尾仔",
+        "severity": "Minor",
+        "start": 13,
+        "end": 16,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1. 「活動或事情快要結束的階段」，台文可用「尾聲」對應。"
+  },
+  "104": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "104",
+    "source": "學語言要有環境，長期受影響自然就能學會。",
+    "target": "學話著愛有環境，久長受影響自然就會曉。",
+    "reference": "學語言愛有環境，汰久自然就會。",
+    "rater": "rater1",
+    "score7": 4.8,
+    "score100": 80,
+    "spans": [
+      {
+        "text": "學話",
+        "severity": "Major",
+        "start": 0,
+        "end": 2,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "久長",
+        "severity": "Minor",
+        "start": 8,
+        "end": 10,
+        "category": "Fluency/Register"
+      }
+    ],
+    "explanation": "1. 中文「學語言」，台文是「學語言」。\n2. 「受到他人或環境的影響而學習或改變」，台文可用「汰」對應。中文「長期受影響」，台文是「汰久」。"
+  },
+  "105": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "105",
+    "source": "你如果身體不舒服的話，就早一點去歇著吧。",
+    "target": "你若身軀無爽快，就較緊來去歇睏咧。",
+    "reference": "你若是人無爽快，就較早去歇睏。",
+    "rater": "rater1",
+    "score7": 5.9,
+    "score100": 98.33,
+    "spans": [
+      {
+        "text": "較緊",
+        "severity": "Minor",
+        "start": 9,
+        "end": 11,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1. 中文「早一點」，台文是「較早」。"
+  },
+  "1001": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1001",
+    "source": "年老時也得存些錢財，如果不幸生病了，才有辦法去看病。",
+    "target": "老來嘛愛積一寡仔錢，若無，破病無通看醫生。",
+    "reference": "食老嘛著儉寡錢銀，萬不幸若破病，才有通去予醫生看。",
+    "rater": "rater2",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "積",
+        "severity": "Minor",
+        "start": 4,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "(存)台文是(儉)"
+  },
+  "1002": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1002",
+    "source": "他畢業至今還沒找到工作，暫時跟在里長伯身旁當跑腿的。",
+    "target": "伊出業到今猶未揣著頭路，暫且綴鄰長的阿伯做小使仔。",
+    "reference": "伊出業到今猶揣無頭路，臨時跔佇里長伯仔遐做小使仔。",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "綴鄰長的阿伯",
+        "severity": "Major",
+        "start": 14,
+        "end": 20,
+        "category": "Purity/"
+      }
+    ],
+    "explanation": "(跟在里長伯身旁)台文是(佇里長伯仔遐)"
+  },
+  "1003": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1003",
+    "source": "臺灣在夏天出產很多香甜的水果，例如芒果、荔枝和香瓜。",
+    "target": "臺灣佇熱天有真濟芳甜的水果，親像檨仔、荔枝佮西瓜。",
+    "reference": "臺灣熱人出產真濟芳甜的果子，譬論檨仔、荔枝佮芳瓜。",
+    "rater": "rater2",
+    "score7": 5.15,
+    "score100": 85.83,
+    "spans": [
+      {
+        "text": "熱天",
+        "severity": "Minor",
+        "start": 3,
+        "end": 5,
+        "category": "Purity/"
+      }
+    ],
+    "explanation": "(夏天)台文是(熱人)"
+  },
+  "1004": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1004",
+    "source": "這棵玉蘭已經結花蕾了，不用多久花就會一朵朵接續著開。",
+    "target": "這欉玉蘭仔已經開花矣，無偌久花就會一蕊一蕊接紲開。",
+    "reference": "這欉玉蘭已經咧拍莓矣，免偌久花就會一蕊一蕊相紲開。",
+    "rater": "rater2",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "開花矣",
+        "severity": "Major",
+        "start": 7,
+        "end": 10,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "(結花蕾了)台文是(拍梅矣)"
+  },
+  "1005": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1005",
+    "source": "以前的人要有一件衣服穿，需要自己織布製衣，非常麻煩。",
+    "target": "古早人若欲有一領衫通穿，著愛家己做，真費氣。",
+    "reference": "古早人欲有一領仔衫通穿，著家己經布來做，真誠費氣。",
+    "rater": "rater2",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "做",
+        "severity": "Major",
+        "start": 16,
+        "end": 17,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "(織布製衣)台文是(織布做衫)"
+  },
+  "1006": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1006",
+    "source": "他邊走邊玩手機，沒有留意往來的車輛，差點被車子撞到。",
+    "target": "伊沿路行路閣咧耍手機仔，無張持來去車水馬龍，險予車挵著。",
+    "reference": "伊那行那耍手機仔，攏無斟酌咧看路，險仔去予車挵著。",
+    "rater": "rater2",
+    "score7": 4.05,
+    "score100": 67.5,
+    "spans": [
+      {
+        "text": "來去車水馬龍，",
+        "severity": "Major",
+        "start": 15,
+        "end": 22,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "來去車水馬龍，",
+        "severity": "Major",
+        "start": 15,
+        "end": 22,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": ""
+  },
+  "1007": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1007",
+    "source": "自己的孩子沒教好，老是丟人現眼，還敢罵鄰居的孩子沒家教，當然會被人挖苦諷刺，人家說「自取其辱」就是這樣。",
+    "target": "家己的囡仔無教好，不時都予人看衰，閣敢嫌人的囝孫仔無教示，自然會去予人笑詼，人講「家己種番薯，毋通嫌番薯爛」就是按呢。",
+    "reference": "家己的囝無教示，不時卸世卸眾，閣敢罵厝邊的囡仔歹家教，免講嘛予人剾洗，人講「家己捧屎抹面」就是這款。",
+    "rater": "rater2",
+    "score7": 0,
+    "score100": 0,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/"
+      }
+    ],
+    "explanation": ""
+  },
+  "1008": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1008",
+    "source": "我們老闆會用殺雞儆猴的方法管理部下，讓人感覺不太舒服。",
+    "target": "阮頭家會用刣雞教猴的步數來管部下去，予人小可仔袂爽快。",
+    "reference": "阮頭家會用刣雞教猴的方式管理部下，予人感覺無啥爽快。",
+    "rater": "rater2",
+    "score7": 3.95,
+    "score100": 65.83,
+    "spans": [
+      {
+        "text": "去",
+        "severity": "Minor",
+        "start": 16,
+        "end": 17,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "管",
+        "severity": "Minor",
+        "start": 13,
+        "end": 14,
+        "category": "Fluency/Register"
+      },
+      {
+        "text": "小可仔",
+        "severity": "Minor",
+        "start": 20,
+        "end": 23,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1.(管理)台語文(管理)\n2.(感覺不太)台語文(感覺淡薄仔)"
+  },
+  "1009": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1009",
+    "source": "他那個兒子好像木頭人，每次問他事情都不會稍微回應一下。",
+    "target": "伊彼个後生若柴頭尪仔仝款，逐擺問伊代誌攏袂振動一下。",
+    "reference": "𪜶彼个後生敢若柴頭尪仔，見擺問伊代誌攏袂曉小應一下。",
+    "rater": "rater2",
+    "score7": 3.95,
+    "score100": 65.83,
+    "spans": [
+      {
+        "text": "振動",
+        "severity": "Major",
+        "start": 21,
+        "end": 23,
+        "category": "Purity/"
+      }
+    ],
+    "explanation": "1.(稍微回應)台語文(小應)"
+  },
+  "1010": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1010",
+    "source": "他雖然是清寒家庭出身，但是他不認命，拼到最終出人頭地。",
+    "target": "伊雖罔是散赤家庭出身，毋過伊毋認命，拚甲尾仔有成就。",
+    "reference": "伊雖然是散赤家庭出身，毋過伊無認命，拚到最後出頭天。",
+    "rater": "rater2",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "有成就",
+        "severity": "Minor",
+        "start": 22,
+        "end": 25,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "(出人頭地)台語文(出頭天)"
+  },
+  "1011": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1011",
+    "source": "散會時，我們準備了三、四百塊鳳梨酥，在大門口送給客人。",
+    "target": "散會的時，阮攢三、四百个王梨酥，佇大門口送人客。",
+    "reference": "散會的時，阮有攢三、四百塊王梨酥，佇大門口送予人客。",
+    "rater": "rater2",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "送",
+        "severity": "Minor",
+        "start": 20,
+        "end": 21,
+        "category": "Fluency/Grammar"
+      }
+    ],
+    "explanation": "(送給)台語文(送予)"
+  },
+  "1012": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1012",
+    "source": "他生性比較懶散，如果不經常督促他，工作進度會被耽誤到。",
+    "target": "伊生做較荏，若無定定共伊督促，工課會予伊拖屎連。",
+    "reference": "伊生成較懶性，若無較捷共迫促咧，工課進度會去予誤著。",
+    "rater": "rater2",
+    "score7": 1.95,
+    "score100": 32.5,
+    "spans": [
+      {
+        "text": "荏",
+        "severity": "Major",
+        "start": 4,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "督促",
+        "severity": "Minor",
+        "start": 12,
+        "end": 14,
+        "category": "Purity/"
+      },
+      {
+        "text": "拖屎連",
+        "severity": "Major",
+        "start": 20,
+        "end": 23,
+        "category": "Style/Awkward"
+      }
+    ],
+    "explanation": "1.(懶散)台語文(懶性)\n2.(督促)台語文(跟咧)\n3.(耽誤到)台語文(耽誤到)"
+  },
+  "1013": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1013",
+    "source": "他長得挺斯文，很有內涵的樣子，不過一開口就原形畢露了。",
+    "target": "伊生做真斯文，有內才，毋過一下開喙就現出原形矣。",
+    "reference": "伊生做斯文斯文，真有內涵的款，毋過一下開喙就破功矣。",
+    "rater": "rater2",
+    "score7": 2.95,
+    "score100": 49.17,
+    "spans": [
+      {
+        "text": "有內才",
+        "severity": "Minor",
+        "start": 7,
+        "end": 10,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "現出原形矣",
+        "severity": "Minor",
+        "start": 18,
+        "end": 23,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1.(內涵的樣子)台文是(有內涵的款)\n2.(原形畢露了)台文是(破功矣)"
+  },
+  "1014": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1014",
+    "source": "我國小畢業，考上初中，可惜沒有錢可以註冊，就去當學徒。",
+    "target": "阮國小出業，考牢國中，可惜無錢通註冊，就去做學仔工。",
+    "reference": "我國校出業，考牢初中，可惜無錢通註冊，就去學做師仔。",
+    "rater": "rater2",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "國小",
+        "severity": "Minor",
+        "start": 1,
+        "end": 3,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "做學仔工",
+        "severity": "Major",
+        "start": 21,
+        "end": 25,
+        "category": "Purity/"
+      }
+    ],
+    "explanation": "1.(國小)台文是(國校)\n2.(當學徒)台文是(學做師仔)"
+  },
+  "1015": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1015",
+    "source": "前幾天你要搬家，你舅舅特地請假來幫你搬，你非但沒有感謝他，還嫌他笨手笨腳，你這個外甥真是「占盡你舅舅的便宜」。",
+    "target": "頂日仔恁欲徙厝，恁阿舅專工請假來共你鬥搬，你毋但無感謝伊，閣嫌伊戇大呆，你這个小表兄真正是「食人夠夠」。",
+    "reference": "頂日仔你欲搬厝，恁阿舅專工請假來共你鬥搬，你毋但無感謝伊，閣嫌伊跤手慢，誠實是「外甥食母舅，親像食豆腐」。",
+    "rater": "rater2",
+    "score7": 1.05,
+    "score100": 17.5,
+    "spans": [
+      {
+        "text": "徙厝",
+        "severity": "Major",
+        "start": 5,
+        "end": 7,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "戇大呆",
+        "severity": "Major",
+        "start": 32,
+        "end": 35,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "你這个小表兄真正是「食人夠夠」",
+        "severity": "Major",
+        "start": 36,
+        "end": 51,
+        "category": "Terminology/Other"
+      }
+    ],
+    "explanation": "1.(搬家)台文是(搬厝)\n2.(笨手笨腳)台文是(粗跤重蹄)\n3.(你這個外甥真是「占盡你舅舅的便宜」)台文是(你真是「外甥食母舅，親像食豆腐」)"
+  },
+  "1016": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1016",
+    "source": "百貨公司常會在年底打折大拍賣，俗語說：「貪小便宜反敗家。」我們不要貪求東西便宜就拚命買，否則，到時財產會完蛋。",
+    "target": "百貨公司定定佇年尾咧拍折，俗語講：「食緊挵破碗。」咱毋通為著物件俗就烏白買，若無，到時錢財就了了矣。",
+    "reference": "百貨公司定會佇年尾拍折大俗賣，俗語講：「俗物食破家。」咱毋通貪著物件俗就拚性命買，若無，時到家伙會去了了。",
+    "rater": "rater2",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "食緊挵破碗。",
+        "severity": "Major",
+        "start": 18,
+        "end": 24,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "食緊挵破碗。",
+        "severity": "Major",
+        "start": 18,
+        "end": 24,
+        "category": "Fluency/Inconsistency"
+      },
+      {
+        "text": "了了",
+        "severity": "Minor",
+        "start": 46,
+        "end": 48,
+        "category": "Fluency/Grammar"
+      }
+    ],
+    "explanation": "1.(貪小便宜反敗家)台文是(俗物食破家)\n2.(完蛋)台文是(去了了)"
+  },
+  "1017": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1017",
+    "source": "他平常就很會吹牛和說謊，看他說得頭頭是道，我們都知道沒有一句是真的，真的是「兔脣者吃米粉──被看得一清二楚」。",
+    "target": "伊平常時就足𠢕歕雞胿佮講白賊，看伊講甲喙角全波，咱攏知影無一句是真的，真正是「大舌鳥食飯，予人看破跤手」。",
+    "reference": "平素時伊就真𠢕膨風閣𠢕講白賊，看伊講甲喙角全波，阮攏知影無一句是實在話，正港是「缺喙的食米粉──看現現」。",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "大舌鳥食飯，予人看破跤手",
+        "severity": "Major",
+        "start": 39,
+        "end": 51,
+        "category": "Terminology/Inappropriate",
+        "original_start": 40,
+        "original_end": 52,
+        "_auto_fixed": true
+      },
+      {
+        "text": "大舌鳥食飯，予人看破跤手",
+        "severity": "Major",
+        "start": 39,
+        "end": 51,
+        "category": "Locale/Other",
+        "original_start": 40,
+        "original_end": 52,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "(兔脣者吃米粉──被看得一清二楚)台文是(缺喙的食米粉──看現現)"
+  },
+  "1018": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1018",
+    "source": "他自從中風以後，就像洩了氣的氣球一般，失去了人生的目標。",
+    "target": "伊自中風了後，就若像消風的皮球仝款，失去人生的方向矣。",
+    "reference": "伊自中風了後，就親像消風的雞胿仔仝款，失去人生的目標。",
+    "rater": "rater2",
+    "score7": 4.05,
+    "score100": 67.5,
+    "spans": [
+      {
+        "text": "皮球",
+        "severity": "Minor",
+        "start": 13,
+        "end": 15,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "皮球",
+        "severity": "Minor",
+        "start": 13,
+        "end": 15,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "方向",
+        "severity": "Minor",
+        "start": 23,
+        "end": 25,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1.(氣球)台文是(雞胿仔)\n2.(目標)台文是(目標)"
+  },
+  "1019": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1019",
+    "source": "阿菊很服輸，他老公欠錢跑路，他自己拼命賺錢替他老公還債。",
+    "target": "阿菊仔足𠢕輸，𪜶翁欠數走代先，伊家己拍拚趁錢來鬥還𪜶翁的數。",
+    "reference": "阿菊真擔輸贏，𪜶翁欠錢走路，伊家己拍拚趁錢替𪜶翁還數。",
+    "rater": "rater2",
+    "score7": 1.05,
+    "score100": 17.5,
+    "spans": [
+      {
+        "text": "𠢕輸",
+        "severity": "Major",
+        "start": 4,
+        "end": 6,
+        "category": "Fluency/Inconsistency",
+        "original_start": 4,
+        "original_end": 7,
+        "_auto_fixed": true
+      },
+      {
+        "text": "走代先",
+        "severity": "Major",
+        "start": 11,
+        "end": 14,
+        "category": "Accuracy/Mistranslation",
+        "original_start": 13,
+        "original_end": 16,
+        "_auto_fixed": true
+      },
+      {
+        "text": "鬥還𪜶翁的數",
+        "severity": "Major",
+        "start": 23,
+        "end": 29,
+        "category": "Fluency/Register",
+        "original_start": 25,
+        "original_end": 32,
+        "_auto_fixed": true
+      }
+    ],
+    "explanation": "1.(服輸)台文是(巴結)\n2.(跑路)台文是(走路)\n3.(替他老公還債)台文是(替𪜶翁還數)"
+  },
+  "1020": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1020",
+    "source": "老師跟我說：「你還年輕，日子還很長，該為前途打算一下。」",
+    "target": "先生講：「你猶少年，日子嘛真長，著愛替將來想看覓咧。」",
+    "reference": "老師共我講：「你猶少歲，日子猶誠長，前途著拍算一下。」",
+    "rater": "rater2",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "先生講",
+        "severity": "Minor",
+        "start": 0,
+        "end": 3,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "嘛",
+        "severity": "Minor",
+        "start": 12,
+        "end": 13,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "想看覓",
+        "severity": "Minor",
+        "start": 21,
+        "end": 24,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1.(老師跟我說)台文是(老師共我講)\n2.(還)台文是(猶)\n3.(打算一下)台文是(打算一下)"
+  },
+  "1021": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1021",
+    "source": "現代網路方便進步，有很多人在臉書上面跟人認識、培養感情。",
+    "target": "現此時網路利便進步，有足濟人佇面冊頂懸佮人相捌、培養感情。",
+    "reference": "現代網路方便進步，有足濟人是佇面冊頂懸佮人相捌、盤撋。",
+    "rater": "rater2",
+    "score7": 4.05,
+    "score100": 67.5,
+    "spans": [
+      {
+        "text": "、培養感情",
+        "severity": "Minor",
+        "start": 23,
+        "end": 28,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "(培養感情)台文是(盤撋)"
+  },
+  "1022": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1022",
+    "source": "現在事機敗露了，自己不承擔，還硬要賴給別人，實在沒道理。",
+    "target": "現此時代誌走精去矣，家己毋認輸，閣欲共人牽拖，有影無理。",
+    "reference": "代誌這馬出破矣，家己毋食認，閣硬欲賴予別人，實在無理。",
+    "rater": "rater2",
+    "score7": 1.05,
+    "score100": 17.5,
+    "spans": [
+      {
+        "text": "走精去矣",
+        "severity": "Major",
+        "start": 5,
+        "end": 9,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "共人牽拖",
+        "severity": "Major",
+        "start": 18,
+        "end": 22,
+        "category": "Fluency/Grammar"
+      }
+    ],
+    "explanation": "1.(敗露了)台文是(出破)\n2.(賴給別人)台文是(牽拖捌人)"
+  },
+  "1023": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1023",
+    "source": "三噸半的貨車扣除車身重量，可以載運大約一千五百公斤的貨。",
+    "target": "三噸半的車仔扣掉車身重，會當載差不多一千五百斤的貨。",
+    "reference": "三噸半的貨車扣除車身重量，會使載大約一千五百公斤的貨。",
+    "rater": "rater2",
+    "score7": 4.95,
+    "score100": 82.5,
+    "spans": [
+      {
+        "text": "車仔",
+        "severity": "Minor",
+        "start": 4,
+        "end": 6,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "(貨車)台文是(貨車)"
+  },
+  "1024": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1024",
+    "source": "不只候鳥會隨著季節固定遷徙，有一些昆蟲及魚類也會這麼做。",
+    "target": "毋但過境鳥會綴時節定著飛來去，一寡蟲豸佮魚仔嘛按呢。",
+    "reference": "毋但過冬鳥會綴季節固定遷徙，有一寡蟲豸佮魚仔嘛會按呢。",
+    "rater": "rater2",
+    "score7": 1.95,
+    "score100": 32.5,
+    "spans": [
+      {
+        "text": "過境鳥",
+        "severity": "Major",
+        "start": 2,
+        "end": 5,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "定著",
+        "severity": "Major",
+        "start": 9,
+        "end": 11,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "飛來去",
+        "severity": "Minor",
+        "start": 11,
+        "end": 14,
+        "category": "Fluency/Grammar"
+      },
+      {
+        "text": "嘛",
+        "severity": "Minor",
+        "start": 22,
+        "end": 23,
+        "category": "Accuracy/Omission"
+      }
+    ],
+    "explanation": "1.(候鳥)台文是(渡鳥)\n2.(固定)台文是(固定)\n3.(遷徙)台文是(遷徙)\n4.(也會)台文是(嘛會)"
+  },
+  "1025": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1025",
+    "source": "這個人話多，又說得顛三倒四，就有人罵他「口吃又愛說話」。",
+    "target": "這个人喙水真䆀，閣講甲大舌，就予人罵伊「喙花飽，無代誌講甲天花亂墜」。",
+    "reference": "這个人厚話，閣講甲去去倒倒，就有人罵伊「大舌閣興喋」。",
+    "rater": "rater2",
+    "score7": 0,
+    "score100": 0,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/"
+      }
+    ],
+    "explanation": ""
+  },
+  "1026": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1026",
+    "source": "老闆很信任他，讓他當主管，想不到他卻被人收買，把公司要去投標的標金透露給對手的公司，真的是「不知感恩，吃裡扒外」。",
+    "target": "頭家足相信伊，予伊做主管，想袂到伊煞去予人收買，共公司的標金講予對敵知影，有影是「食人一斤，還人四兩半」。",
+    "reference": "頭家足信任伊，予伊做主管，想袂到伊煞予人買收，共公司欲去投標的標金透露予對手的公司，有影是「食碗內，說碗外」。",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "收買",
+        "severity": "Minor",
+        "start": 21,
+        "end": 23,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "講",
+        "severity": "Major",
+        "start": 30,
+        "end": 31,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "對敵知影",
+        "severity": "Minor",
+        "start": 32,
+        "end": 36,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "食人一斤，還人四兩半",
+        "severity": "Major",
+        "start": 41,
+        "end": 51,
+        "category": "Fluency/Inconsistency"
+      }
+    ],
+    "explanation": "1.(收買)台文是(買收)\n2.(透露)台文是(洩漏)\n3.(對手的公司)台文是(對手的公司)\n4.(不知感恩，吃裡扒外)台文是(食碗內，說碗外)"
+  },
+  "1027": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1027",
+    "source": "這次比賽，對手已經撂狠話了，說要讓我們輸得很難看，「奮發向上，勿落人後」，我們得練習得勤快些，不讓別人有批評之處。",
+    "target": "這擺的比賽，對手已經放風聲講欲予阮輸甲真歹看，「拚勢拍拚，毋通落後人」，咱著愛較認真咧操練一下，才袂予人嫌。",
+    "reference": "這擺的比賽，人都共咱唱聲矣，講欲予咱輸甲足歹看的，「輸人毋輸陣，輸陣歹看面」，咱著較綿爛操練咧，較袂落人的喙。",
+    "rater": "rater2",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "放風聲",
+        "severity": "Major",
+        "start": 10,
+        "end": 13,
+        "category": "Purity/"
+      },
+      {
+        "text": "放風聲",
+        "severity": "Major",
+        "start": 10,
+        "end": 13,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "拚勢拍拚，毋通落後人",
+        "severity": "Major",
+        "start": 24,
+        "end": 34,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "予人嫌",
+        "severity": "Minor",
+        "start": 50,
+        "end": 53,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "1.(撂狠話了)台文是(唱聲)\n2.(奮發向上，勿落人後)台文是(輸人毋輸陣，輸陣歹看面)\n3.(讓別人有批評之處)台文是(落人的喙)"
+  },
+  "1028": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1028",
+    "source": "女人坐月子的時候，要是不小心患上月子病，是會糾纏一輩子喔！",
+    "target": "查某人有身彼站仔，若無細膩著著「月內風」，是會綴伊一世人啦！",
+    "reference": "查某人做月內的時，若無細膩著著月內風，是會交纏一世人喔！",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "有身",
+        "severity": "Major",
+        "start": 3,
+        "end": 5,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "(坐月子)台文是(做月內)"
+  },
+  "1029": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1029",
+    "source": "老闆急著要的報表，你不快做好，到時候你會被他修理得慘兮兮。",
+    "target": "頭家欲用的報表，你毋緊做予好勢，等咧你就會予伊修理甲哀爸叫母。",
+    "reference": "頭家急欲愛的報表，你毋緊做出來，時到你會予伊揲甲金鑠鑠。",
+    "rater": "rater2",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "欲用",
+        "severity": "Major",
+        "start": 2,
+        "end": 4,
+        "category": "Accuracy/Omission"
+      },
+      {
+        "text": "哀爸叫母",
+        "severity": "Minor",
+        "start": 26,
+        "end": 30,
+        "category": "Style/Awkward"
+      }
+    ],
+    "explanation": "1.(急著要)台文是(急欲愛)\n2.(慘兮兮)台文是(金鑠鑠)"
+  },
+  "1030": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1030",
+    "source": "你老是喜歡自己一個人跑去沒有救生員的海邊游泳，早晚會出事。",
+    "target": "你定定愛家己一个走去無救生員的海邊泅水，早慢會出代誌。",
+    "reference": "你定定愛家己一个走去無救生員的海邊泅水，緊縒慢會出代誌。",
+    "rater": "rater2",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/"
+      }
+    ],
+    "explanation": ""
+  },
+  "1031": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1031",
+    "source": "「手心手背都是肉」，不論是女兒或兒子，都是父母的心肝寶貝。",
+    "target": "「手面相拍」，無論查某囝抑是後生，攏是爸母的心肝寶貝。",
+    "reference": "「龜跤龜內肉」，無論查某囝抑後生，攏是序大人的心肝寶貝。",
+    "rater": "rater2",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "手面相拍",
+        "severity": "Major",
+        "start": 1,
+        "end": 5,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "(手心手背都是肉)台文是(龜跤龜內肉)"
+  },
+  "1032": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1032",
+    "source": "各位親朋好友、前輩們，我「喝第一杯酒，講第一句話」較為越權，今天是主人七十歲生日，我們大家祝他平安順遂活到一百二十歲。",
+    "target": "各位親情朋友、前輩，我「喝頭一杯，講頭一句話」較無禮數，今仔日是主人七十歲生日，咱逐家來共伊祝福身體健康食百二。",
+    "reference": "各位親情朋友、先進序大，我「食人頭鍾酒，講人頭句話」有較僭權，今仔日是主人家七十歲大壽，咱逐家祝伊平安順序食百二。",
+    "rater": "rater2",
+    "score7": 3.05,
+    "score100": 50.83,
+    "spans": [
+      {
+        "text": "前輩",
+        "severity": "Minor",
+        "start": 7,
+        "end": 9,
+        "category": "Purity/"
+      },
+      {
+        "text": "喝頭一杯，講頭一句話",
+        "severity": "Major",
+        "start": 12,
+        "end": 22,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "無禮數",
+        "severity": "Major",
+        "start": 24,
+        "end": 27,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "主人",
+        "severity": "Minor",
+        "start": 32,
+        "end": 34,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1.(前輩們)台文是(先進序大)\n2.(喝第一杯酒，講第一句話)台文是(食人頭鍾酒，講人頭句話)\n3.(為越權)台文是(僭權)\n4.(主人)台文是(主人家)"
+  },
+  "1033": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1033",
+    "source": "這條溪每年都溺死好幾個人，政府規定這裡不能戲水，不過都沒人理會，過沒幾年，事情就「船過水無痕」，戲水的人仍然滿坑滿谷。",
+    "target": "這條溪逐年攏淹死幾若个人，政府規定遮袂使泅水，毋過無人咧插伊，無偌久，代誌就「船過水無痕」矣，猶是滿滿是咧泅水。",
+    "reference": "這條溪逐年都駐死幾若个人，政府規定遮袂使耍水，毋過攏無人咧插，隔無幾冬，代誌就「船過水無痕」，耍水的人猶原插插插。",
+    "rater": "rater2",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "淹死",
+        "severity": "Major",
+        "start": 6,
+        "end": 8,
+        "category": "Purity/None"
+      },
+      {
+        "text": "伊",
+        "severity": "Minor",
+        "start": 29,
+        "end": 30,
+        "category": "Accuracy/Addition"
+      },
+      {
+        "text": "是咧",
+        "severity": "Major",
+        "start": 51,
+        "end": 53,
+        "category": "Fluency/Grammar"
+      }
+    ],
+    "explanation": "1.(溺死)台文是(駐死)\n2.(的人)台文是(的人咧)"
+  },
+  "1034": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1034",
+    "source": "他時常在這地方與人吵架、鬥毆，而且好吃懶做，簡直就像個王爺。",
+    "target": "伊不時佇遮佮人冤家相拍，閣食好鬥歹，有夠毋成王爺。",
+    "reference": "伊定定佇這箍圍仔佮人冤家相拍，又閣欲食毋討趁，袂輸王爺咧。",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "閣食好鬥歹",
+        "severity": "Major",
+        "start": 12,
+        "end": 17,
+        "category": "Purity/None"
+      },
+      {
+        "text": "有夠毋成",
+        "severity": "Major",
+        "start": 18,
+        "end": 22,
+        "category": "Fluency/Inconsistency"
+      }
+    ],
+    "explanation": "1.(而且好吃懶做)台文是(閣欲食毋討趁)\n2.(簡直就像個)台文是(袂輸是)"
+  },
+  "1035": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1035",
+    "source": "新聞有報導，嗜食檳榔的人，如果吃到倒吊子中毒，有時候會喪命。",
+    "target": "新聞講著，愛食檳榔的人，若食著檳榔內底的烏心仔，有時嘛會無命。",
+    "reference": "新聞有咧報，興食檳榔的人，若去食著倒吊子中毒，有時會無命。",
+    "rater": "rater2",
+    "score7": 2.95,
+    "score100": 49.17,
+    "spans": [
+      {
+        "text": "檳榔內底的烏心仔",
+        "severity": "Major",
+        "start": 15,
+        "end": 23,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "(倒吊子中毒)台文是(倒吊子中毒)"
+  },
+  "1036": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1036",
+    "source": "新聞報導說，有一位老婦人非常堅強，靠自己雙手在扶養三個孫子。",
+    "target": "新聞報講有一位阿婆真硬插，靠家己的雙手咧晟養三个外孫仔。",
+    "reference": "新聞報講有一个老阿婆有夠硬插，靠家己一雙手骨咧晟三个孫仔。",
+    "rater": "rater2",
+    "score7": 4.95,
+    "score100": 82.5,
+    "spans": [
+      {
+        "text": "外孫仔",
+        "severity": "Minor",
+        "start": 24,
+        "end": 27,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": "(孫子)台文是(孫仔)"
+  },
+  "1037": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1037",
+    "source": "老職員認真努力，不過升官加薪都沒他的份，這次他「向老天爺借膽」，向主管要求加薪，成不成功不一定，他的勇氣就值得我們誇獎。",
+    "target": "老職員認真拍拚，毋過升官發財攏無伊的份，這擺伊「向天借膽」，對頭家要求加薪，成敗是按怎咱袂曉算，伊的膽量就予人呵咾甲會觸舌。",
+    "reference": "老職員認真拍拚，毋過升官加薪攏無伊的份，這遍伊「共天公借膽」，向主管要求加薪，有成無成不常在，伊的勇氣就值得咱呵咾。",
+    "rater": "rater2",
+    "score7": 0.95,
+    "score100": 15.83,
+    "spans": [
+      {
+        "text": "",
+        "severity": "Major",
+        "start": 0,
+        "end": 0,
+        "category": "Non-translated/None"
+      }
+    ],
+    "explanation": ""
+  },
+  "1038": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1038",
+    "source": "分明是他先動手的，現在卻「惡人先告狀」，偷偷跑去向老師告狀。",
+    "target": "明明是伊先動手的，這馬煞「歹竹出好筍」，偷偷仔走去共老師投。",
+    "reference": "現現都伊先出手的，今煞「拍人喝救人」，偷偷仔走去共老師投。",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "歹竹出好筍",
+        "severity": "Major",
+        "start": 13,
+        "end": 18,
+        "category": "Fluency/Inconsistency"
+      }
+    ],
+    "explanation": "(惡人先告狀)台文是(惡人先告狀)"
+  },
+  "1039": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1039",
+    "source": "從前糧食匱乏的時代，煮稀飯是幾粒米、一些番薯籤乾加一大鍋的水，「一粒田螺煮九海碗湯」，要撈到一粒米粒就像海底撈針，好難啊！",
+    "target": "古早時陣食米較欠缺的時，煠糜是三粒米、一寡番薯簽乾摻一大鼎水，「一粒田螺煮九碗湯」，欲撈著一粒米粒就若海底摸針仝款，真僫得呢！",
+    "reference": "古早糧食缺欠的時，煮糜是幾粒米、一寡番薯簽乾摻一大坩水，「一粒田螺煮九碗公湯」，欲罟一粒飯粒仔就親像海底摸針，真僫啦！",
+    "rater": "rater2",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "食米",
+        "severity": "Major",
+        "start": 4,
+        "end": 6,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "煠糜",
+        "severity": "Major",
+        "start": 12,
+        "end": 14,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1.(糧食)台文是(糧食)\n2.(煮稀飯)台文是(煮糜)"
+  },
+  "1040": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1040",
+    "source": "有一些政治人物，只有在選舉時，才比較常說母語來博取民眾的好感。",
+    "target": "有一寡政治人物，干焦佇選戰的時陣，才較捷講母語來討好選民。",
+    "reference": "有一寡政治人物，干焦佇選舉的時，才較捷講母語來佮民眾跋感情。",
+    "rater": "rater2",
+    "score7": 4,
+    "score100": 66.67,
+    "spans": [
+      {
+        "text": "選戰",
+        "severity": "Minor",
+        "start": 11,
+        "end": 13,
+        "category": "Other/None"
+      },
+      {
+        "text": "討好選民",
+        "severity": "Minor",
+        "start": 24,
+        "end": 28,
+        "category": "Purity/None"
+      }
+    ],
+    "explanation": "1.(選舉)台文是(選舉)\n2.(博取民眾的好感)台文是(巴結選民)"
+  },
+  "1041": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1041",
+    "source": "廟宇建醮乞龜保平安的時候，爸爸擲最多聖筊，求得那隻最大的米龜。",
+    "target": "廟宇做醮求龜保平安的時，阿爸跋上濟筊，求著彼隻上大粒的米龜。",
+    "reference": "宮廟做醮乞龜保平安的時，阿爸跋上濟桮，乞著彼隻上大隻的米龜。",
+    "rater": "rater2",
+    "score7": 4.05,
+    "score100": 67.5,
+    "spans": [
+      {
+        "text": "求龜",
+        "severity": "Major",
+        "start": 4,
+        "end": 6,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "筊",
+        "severity": "Major",
+        "start": 17,
+        "end": 18,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "求",
+        "severity": "Major",
+        "start": 19,
+        "end": 20,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "粒",
+        "severity": "Major",
+        "start": 25,
+        "end": 26,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "1.(乞龜)台文是(乞龜)\n2.(筊)台文是(桮)\n3.(求)台文是(乞)\n4.(粒)台文是(隻)"
+  },
+  "1042": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1042",
+    "source": "我們鄰居一個老陳在商船上當二副，收入很好，想不到一次出海之後船竟消失了，到現在十多年了都音訊全無，真的是「航海走馬三分命」。",
+    "target": "阮厝邊一个老陳佇商船頂做二副，趁甲流油，想袂到一擺出去海頂船煞無去，到今十外年攏無消無息，有影是「行船走馬三分命」。",
+    "reference": "阮厝邊一个陳的佇商船頂做二副，收入足好，想袂到一擺出海了後船煞消失去，到今十外年矣攏無消無息，真正是「行船走馬三分命」。",
+    "rater": "rater2",
+    "score7": 3,
+    "score100": 50,
+    "spans": [
+      {
+        "text": "趁甲流油",
+        "severity": "Major",
+        "start": 15,
+        "end": 19,
+        "category": "Purity/"
+      },
+      {
+        "text": "出去海頂",
+        "severity": "Major",
+        "start": 25,
+        "end": 29,
+        "category": "Purity/"
+      },
+      {
+        "text": "無去",
+        "severity": "Minor",
+        "start": 31,
+        "end": 33,
+        "category": "Locale/Other"
+      }
+    ],
+    "explanation": "1.(收入很好)台文是(趁足濟)\n2.(出海)台文是(出海)\n3.(消失了)台文是(消失去)"
+  },
+  "1043": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1043",
+    "source": "人生之路總是起起伏伏，俗話說：「花無百日紅，人無千日好。」我們處順境時不要太得意，處逆境時也不要氣餒，這樣才是健康的生活態度。",
+    "target": "人生路途是起起落落的，俗語講：「花無百日紅，人無千日好。」咱若拄著好時機毋通傷得意，拄著歹時機嘛莫失志，按呢才算是健康的生活態度。",
+    "reference": "人生的路途起起落落，俗語講：「花無百日紅，人無千日好。」咱人好空的時毋通傷風神，歹空的時嘛莫餒志，按呢才是健康的生活態度。",
+    "rater": "rater2",
+    "score7": 5,
+    "score100": 83.33,
+    "spans": [
+      {
+        "text": "算",
+        "severity": "Minor",
+        "start": 55,
+        "end": 56,
+        "category": "Accuracy/Addition"
+      }
+    ],
+    "explanation": ""
+  },
+  "1044": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1044",
+    "source": "我們這裡的人以前都坐竹筏渡河，有些人會用船篙撐，有些人會用船槳划。",
+    "target": "阮遮的人較早攏坐竹棑仔過溪，有人攑篙擛水，有人攑櫓拍滂泅。",
+    "reference": "阮遮的人較早攏坐竹棑仔過溪，有的人會用船篙撐，有的人會用船桮划。",
+    "rater": "rater2",
+    "score7": 2,
+    "score100": 33.33,
+    "spans": [
+      {
+        "text": "擛水",
+        "severity": "Major",
+        "start": 18,
+        "end": 20,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "攑櫓拍滂泅",
+        "severity": "Major",
+        "start": 23,
+        "end": 28,
+        "category": "Purity/"
+      }
+    ],
+    "explanation": "1.(撐)台文是(撐)\n2.(會用船槳划)台文是(會用船桮划船)"
+  },
+  "1045": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1045",
+    "source": "人家說「三分長相，七分打扮」，他今天穿西裝還梳西裝頭，更加英俊了。",
+    "target": "人講：「三生有幸，七彩妝娗」，伊今仔日穿西裝閣梳頭鬃，加誠緣投。",
+    "reference": "人講「三分人，七分妝」，伊今仔日穿西裝閣梳海結仔頭，加足緣投的。",
+    "rater": "rater2",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "梳頭鬃",
+        "severity": "Major",
+        "start": 23,
+        "end": 26,
+        "category": "Terminology/Inappropriate"
+      },
+      {
+        "text": "三生有幸，七彩妝娗",
+        "severity": "Major",
+        "start": 4,
+        "end": 13,
+        "category": "Accuracy/Mistranslation"
+      }
+    ],
+    "explanation": "1.(三分長相，七分打扮)台文是(三分人，七分妝)\n2.(梳西裝頭)台文是(梳海結仔頭)\n"
+  },
+  "1046": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1046",
+    "source": "管教孩子除了處罰，也要讓他知道哪裡不對，要如何改進，若一味打罵，起先會怕，後來就像人家說的「常罵不聽話，常打不怕痛」，愈來愈不受教。",
+    "target": "教囝仔毋但愛罰伊，嘛著予伊知影佗位毋好，愛按怎改過，若是直直共人拍、一直共人罵，上初頭會驚，久來就親像人講的「定定罵袂聽話，定定拍袂疼」，就愈來愈無咧共你信篤。",
+    "reference": "教囝除了處罰，嘛愛予𪜶知影是佗位毋著，愛按怎改進，若干焦拍干焦罵，頭先會驚，久來就像人講的「捷罵袂聽，捷拍袂疼」，愈來愈不受教。",
+    "rater": "rater2",
+    "score7": 1,
+    "score100": 16.67,
+    "spans": [
+      {
+        "text": "改過",
+        "severity": "Minor",
+        "start": 23,
+        "end": 25,
+        "category": "Locale/Other"
+      },
+      {
+        "text": "直直共人拍、一直共人罵",
+        "severity": "Major",
+        "start": 28,
+        "end": 39,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "上初頭",
+        "severity": "Major",
+        "start": 40,
+        "end": 43,
+        "category": "Purity/None"
+      },
+      {
+        "text": "定定罵袂聽話，定定拍袂疼",
+        "severity": "Major",
+        "start": 55,
+        "end": 67,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "1.(改進)台文是(改進)\n2.(若一味打罵)台文是(若是干焦一直拍抑是罵)\n3.(起先)台文是(頭起先)\n4.(常罵不聽話，常打不怕痛)台文是(捷罵袂聽，捷拍袂疼)"
+  },
+  "1047": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1047",
+    "source": "現在在新北市土城區的大墓公聽說與之前的林爽文事件、漳泉械鬥都有關係。",
+    "target": "這馬佇新北市的三峽區大豹溪遐的祖師廟聽講佮進前的林爽文事件、漳泉械鬥攏有關係。",
+    "reference": "這馬佇新北市土城區的大墓公聽講佮早前的林爽文事件、漳泉拚攏有關係。",
+    "rater": "rater2",
+    "score7": 0.95,
+    "score100": 15.83,
+    "spans": [
+      {
+        "text": "三峽區大豹溪遐的祖師廟",
+        "severity": "Major",
+        "start": 7,
+        "end": 18,
+        "category": "Accuracy/Mistranslation"
+      },
+      {
+        "text": "漳泉械鬥",
+        "severity": "Major",
+        "start": 30,
+        "end": 34,
+        "category": "Terminology/Inappropriate"
+      }
+    ],
+    "explanation": "1.(土城區的大墓公)台文是(土城區的大墓公)\n2.(漳泉械鬥)台文是(漳泉拚)"
+  },
+  "1048": {
+    "system": "Taigi-Llama-2-Chat-7B",
+    "lp": "zh-han",
+    "doc": "moedict_select",
+    "id": "1048",
+    "source": "我忙到整天都沒吃東西，現在可是餓得「肚子咕嚕咕嚕叫」，快撐不下去了。",
+    "target": "我無閒甲規工攏無食物件，這馬腹肚枵甲「大腸告小腸」，強欲擋袂牢矣。",
+    "reference": "我無閒甲規工攏無食物件，這馬是枵甲「大腸告小腸」，強欲接載袂牢矣。",
+    "rater": "rater2",
+    "score7": 5.95,
+    "score100": 99.17,
+    "spans": [
+      {
+        "text": "",
+        "severity": "No-error",
+        "start": 0,
+        "end": 0,
+        "category": "No-error/None"
+      }
+    ],
+    "explanation": ""
+  }
+}

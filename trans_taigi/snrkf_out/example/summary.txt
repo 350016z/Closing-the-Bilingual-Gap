@@ -1,0 +1,19 @@
+== Summary over OUTER test folds (nested CV) ==
+outer: 5-fold x 10 repeats  (total=50)
+inner: 4-fold stratified, select_metric=micro_sf1
+== Best-candidate selection frequency ==
+A: 36/50
+B: 3/50
+C: 0/50
+D: 11/50
+
+== Metrics (mean ± std, 95% CI) ==
+micro_sp: mean=0.7408 std=0.0562
+micro_sr: mean=0.6289 std=0.0546
+micro_sf1: mean=0.6788 std=0.0464
+micro_mp: mean=0.5572 std=0.1051
+micro_mr: mean=0.6538 std=0.0862
+micro_mf1: mean=0.5949 std=0.0772
+pearson: mean=0.6041 std=0.1204
+spearman: mean=0.6068 std=0.1150
+kendall: mean=0.4765 std=0.1012

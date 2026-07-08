@@ -1,0 +1,29 @@
+# ---- Core / data ----
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+
+# ---- LLM APIs ----
+openai              # Azure OpenAI (GPT) and Qwen (OpenAI-compatible endpoint)
+google-genai        # Gemini
+python-dotenv
+json-repair
+
+# ---- Retrieval / embeddings / segmentation ----
+torch
+sentence-transformers
+FlagEmbedding
+jieba
+
+# ---- AI-assisted annotation backend ----
+fastapi
+uvicorn[standard]
+
+# ---- External (not on PyPI) ----
+# MQM scoring in trans_taigi/run_score.py uses Google's mt-metrics-eval:
+#   pip install git+https://github.com/google-research/mt-metrics-eval.git
+#
+# The frontend (ai-assist_interface/frontend) is a Next.js app; install its
+# JavaScript dependencies separately with `npm install`.
